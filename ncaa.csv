@@ -1,0 +1,767 @@
+division,school,nickname,logo
+FBS,Central Florida,Knights,https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/UCF_Knights_logo.svg/1280px-UCF_Knights_logo.svg.png
+FBS,Cincinnati,Bearcats,https://s3.amazonaws.com/footballpedia/logo/Division+1/Cincinnati_University_Bearcats.png
+FBS,Connecticut,Huskies,https://footballpedia.s3.amazonaws.com/logo/Division+1/Connecticut_Huskies.png
+FBS,East Carolina,Pirates,https://footballpedia.s3.amazonaws.com/logo/Division+1/East_Carolina_Pirates.png
+FBS,Houston,Cougars,https://s3.amazonaws.com/footballpedia/logo/Division+1/Houston_Cougars.png
+FBS,Memphis,Tigers,https://footballpedia.s3.amazonaws.com/logo/Division+1/Memphis_Tigers.png
+FBS,Navy,Midshipmen,https://s3.amazonaws.com/footballpedia/logo/Division+1/Navy_Midshipmen.png
+FBS,South Florida,Bulls,https://footballpedia.s3.amazonaws.com/logo/Division+1/South_Florida_Bulls.png
+FBS,Southern Methodist,Mustangs,https://s3.amazonaws.com/footballpedia/logo/Division+1/SMU_Mustangs.png
+FBS,Temple,Owls,https://s3.amazonaws.com/footballpedia/logo/Division+1/Temple_Owls.png
+FBS,Tulane,Green Wave,https://footballpedia.s3.amazonaws.com/logo/Division+1/Tulane_Green_Wave.png
+FBS,Tulsa,Golden Hurricane,https://s3.amazonaws.com/footballpedia/logo/Division+1/Tulsa_Golden_Hurricane.png
+FBS,Boston College,Eagles,https://footballpedia.s3.amazonaws.com/logo/Division+1/Boston_College_Eagles.png
+FBS,Clemson,Tigers,https://s3.amazonaws.com/footballpedia/logo/Division+1/Clemson_Tigers.png
+FBS,Duke,Blue Devils,https://s3.amazonaws.com/footballpedia/logo/Division+1/Duke_Blue_Devils.png
+FBS,Florida State,Seminoles,https://footballpedia.s3.amazonaws.com/logo/Division+1/Florida_State_Seminoles.png
+FBS,Georgia Tech,Yellow Jackets,https://s3.amazonaws.com/footballpedia/logo/Division+1/Georgia_Tech_Yellow_Jackets.png
+FBS,Louisville,Cardinals,https://footballpedia.s3.amazonaws.com/logo/Division+1/Louisville_Cardinals.png
+FBS,Miami (FL),Hurricanes,https://s3.amazonaws.com/footballpedia/logo/Division+1/Miami_Hurricanes.png
+FBS,North Carolina,Tar Heels,https://s3.amazonaws.com/footballpedia/logo/Division+1/North_Carolina_Tar_Heels.png
+FBS,North Carolina State,Wolfpack,https://s3.amazonaws.com/footballpedia/logo/Division+1/North_Carolina_State_Wolfpack.png
+FBS,Pittsburgh,Panthers,https://s3.amazonaws.com/footballpedia/logo/Division+1/Pitt_Panthers.png
+FBS,Syracuse,Orange,https://s3.amazonaws.com/footballpedia/logo/Division+1/Syracuse_Orange.png
+FBS,Virginia,Cavaliers,https://footballpedia.s3.amazonaws.com/logo/Division+1/Virginia_Cavaliers.png
+FBS,Virginia Tech,Hokies,https://s3.amazonaws.com/footballpedia/logo/Division+1/Virginia_Tech_Hokies.png
+FBS,Wake Forest,Demon Deacons,https://s3.amazonaws.com/footballpedia/logo/Division+1/Wake_Forest_Demon_Decons.png
+D3,Buena Vista,Beavers,https://footballpedia.s3.amazonaws.com/logo/Division+3/Buena_Vista_Beavers.png
+D3,Central (IA),Dutch,https://footballpedia.s3.amazonaws.com/logo/Division+3/Central_Dutch.png
+D3,Coe,Kohawks,https://footballpedia.s3.amazonaws.com/logo/Division+3/Coe_Kohawks.jpg
+D3,Dubuque,Spartans,https://footballpedia.s3.amazonaws.com/logo/Division+3/Dubuque_Spartans.jpg
+D3,Loras,Duhawks,https://footballpedia.s3.amazonaws.com/logo/Division+3/Loras_Duhawks.jpg
+D3,Luther,Norse,https://footballpedia.s3.amazonaws.com/logo/Division+3/Luther_Norse.png
+D3,Nebraska Wesleyan,Prairie Wolves,https://footballpedia.s3.amazonaws.com/logo/Division+3/Nebraska_Wesleyan_Prairie_Wolves.jpg
+D3,Simpson (IA),Storm,https://footballpedia.s3.amazonaws.com/logo/Division+3/Simpson_Storm.png
+D3,Wartburg,Knights,https://footballpedia.s3.amazonaws.com/logo/Division+3/Wartburg_Knights.png
+D3,Belhaven,Blazers,https://footballpedia.s3.amazonaws.com/logo/Division+3/Belhaven_Blazers.jpg
+D3,McMurry,War Hawks,https://footballpedia.s3.amazonaws.com/logo/Division+3/McMurry_War_Hawks.jpg
+D3,East Texas Baptist,Tigers,https://footballpedia.s3.amazonaws.com/logo/Division+3/East_Texas_Baptist_Tigers.png
+D3,Hardin-Simmons,Cowboys,https://footballpedia.s3.amazonaws.com/logo/Division+3/Hardin_Simmons_Cowboys.png
+D3,Howard Payne,Yellow Jackets,https://footballpedia.s3.amazonaws.com/logo/Division+3/Howard_Payne_Yellow_Jackets.jpg
+D3,Louisiana College,Wildcats,https://footballpedia.s3.amazonaws.com/logo/Division+3/Louisiana_Wildcats.jpg
+D3,Mary Hardin-Baylor,Crusaders,https://footballpedia.s3.amazonaws.com/logo/Division+3/Mary+Hardin_Baylor_Crusaders.jpg
+D3,Southwestern (TX),Pirates,https://footballpedia.s3.amazonaws.com/logo/Division+3/Southwestern_Pirates.png
+D3,Sul Ross State,Lobos,https://footballpedia.s3.amazonaws.com/logo/Division+3/Sul_Ross_Lobos.png
+D3,Texas Lutheran,Bulldogs,https://footballpedia.s3.amazonaws.com/logo/Division+3/Texas_Lutheran_Bulldogs.jpg
+FBS,Baylor,Bears,https://footballpedia.s3.amazonaws.com/logo/Division+1/Baylor_Athletics.png
+FBS,Iowa State,Cyclones,https://s3.amazonaws.com/footballpedia/logo/Division+1/Iowa_State_Cyclones.png
+FBS,Kansas,Jayhawks,https://footballpedia.s3.amazonaws.com/logo/Division+1/Kansas_Jayhawks.png
+FBS,Kansas State,Wildcats,https://footballpedia.s3.amazonaws.com/logo/Division+1/Kansas_State_Wildcats.png
+FBS,Oklahoma,Sooners,https://s3.amazonaws.com/footballpedia/logo/Division+1/Oklahoma_Sooners.png
+FBS,Oklahoma State,Cowboys,https://s3.amazonaws.com/footballpedia/logo/Division+1/Oklahoma_State_Cowboys.png
+FBS,Texas,Longhorns,https://s3.amazonaws.com/footballpedia/logo/Division+1/Texas_Longhorns.png
+FBS,Texas Christian,Horned Frogs,https://s3.amazonaws.com/footballpedia/logo/Division+1/TCU_Horned_Frogs.png
+FBS,Texas Tech,Red Raiders,https://s3.amazonaws.com/footballpedia/logo/Division+1/Texas_Tech_Red_Raiders.png
+FBS,West Virginia,Mountaineers,https://s3.amazonaws.com/footballpedia/logo/Division+1/West_Virginia_Mountaineers.png
+FCS,Cal Poly,Mustangs,https://upload.wikimedia.org/wikipedia/commons/2/29/Calpolylogosports.png
+FCS,California-Davis,Aggies,https://upload.wikimedia.org/wikipedia/en/thumb/1/13/UC_Davis_Aggies_logo.svg/1280px-UC_Davis_Aggies_logo.svg.png
+FCS,Eastern Washington,Eagles,https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Eastern_Washington_Eagles_logo.svg/1024px-Eastern_Washington_Eagles_logo.svg.png
+FCS,Idaho,Vandals,https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Idaho_Vandals_logo.svg/800px-Idaho_Vandals_logo.svg.png
+FCS,Idaho State,Bengals,https://upload.wikimedia.org/wikipedia/commons/c/c0/Idaho_State_wordmark.png
+FCS,Montana,Grizzlies,https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Montana_Griz_logo.svg/1024px-Montana_Griz_logo.svg.png
+FCS,Montana State,Bobcats,https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Montana_State_Bobcats_logo.svg/1280px-Montana_State_Bobcats_logo.svg.png
+FCS,Northern Arizona,Lumberjacks,https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Northern_Arizona_Athletics_logo.svg/1920px-Northern_Arizona_Athletics_logo.svg.png
+FCS,Northern Colorado,Bears,https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Northern_Colorado_Bears_logo.svg/1024px-Northern_Colorado_Bears_logo.svg.png
+FCS,Portland State,Vikings,https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Portland_State_Vikings_logo.svg/800px-Portland_State_Vikings_logo.svg.png
+FCS,Sacramento State,Hornets,https://upload.wikimedia.org/wikipedia/en/thumb/6/61/Sacramento_State_Hornets_logo.svg/1024px-Sacramento_State_Hornets_logo.svg.png
+FCS,Southern Utah,Thunderbirds,https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Southern_Utah_Thunderbirds_logo.svg/1920px-Southern_Utah_Thunderbirds_logo.svg.png
+FCS,Weber State,Wildcats,https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Weber_State_Wildcats_logo.svg/1280px-Weber_State_Wildcats_logo.svg.png
+FCS,Campbell,Fighting Camels,https://upload.wikimedia.org/wikipedia/en/thumb/8/84/Campbell_Fighting_Camels_logo.svg/1280px-Campbell_Fighting_Camels_logo.svg.png
+FCS,Charleston Southern,Buccaneers,https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Charleston_Southern_Buccaneers_logo.svg/350px-Charleston_Southern_Buccaneers_logo.svg.png
+FCS,Gardner-Webb,Runnin' Bulldogs,https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Gardner-Webb_Runnin%27_Bulldogs_logo.svg/1920px-Gardner-Webb_Runnin%27_Bulldogs_logo.svg.png
+FCS,Kennesaw State,Owls,https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Kennesaw_State_Owls_logo.svg/1024px-Kennesaw_State_Owls_logo.svg.png
+FCS,Monmouth,Hawks,https://upload.wikimedia.org/wikipedia/en/thumb/1/18/Monmouth_Hawks.svg/1280px-Monmouth_Hawks.svg.png
+FCS,Presbyterian,Blue Hose,https://upload.wikimedia.org/wikipedia/commons/5/55/Presbyterian_Blue_Hose_logo.png
+FBS,Illinois,Fighting Illini,https://footballpedia.s3.amazonaws.com/logo/Division+1/Illinois_Fighting_Illini.png
+FBS,Indiana,Hoosiers,https://footballpedia.s3.amazonaws.com/logo/Division+1/Indiana_Hoosiers.png
+FBS,Iowa,Hawkeyes,https://footballpedia.s3.amazonaws.com/logo/Division+1/Iowa_Hawkeyes.jpg
+FBS,Iowa,Hawkeyes,https://footballpedia.s3.amazonaws.com/logo/Division+1/Iowa_Hawkeyes.jpg
+FBS,Maryland,Terrapins,https://footballpedia.s3.amazonaws.com/logo/Division+1/Maryland_Terrapins.png
+FBS,Michigan,Wolverines,https://s3.amazonaws.com/footballpedia/logo/Division+1/Michigan_Wolverines.png
+FBS,Michigan State,Spartans,https://footballpedia.s3.amazonaws.com/logo/Division+1/Michigan_State_Spartans.png
+FBS,Minnesota,Golden Gophers,https://s3.amazonaws.com/footballpedia/logo/Division+1/Minnesota_Golden_Gophers.png
+FBS,Nebraska,Cornhuskers,https://footballpedia.s3.amazonaws.com/logo/Division+1/Nebraska_Cornhuskers.png
+FBS,Nebraska,Cornhuskers,
+FBS,Northwestern,Wildcats,https://s3.amazonaws.com/footballpedia/logo/Division+1/Northwestern_Wildcats.png
+FBS,Ohio State,Buckeyes,https://footballpedia.s3.amazonaws.com/logo/Division+1/Ohio_State_Buckeyes.png
+FBS,Ohio State,Buckeyes,https://footballpedia.s3.amazonaws.com/logo/Division+1/Ohio_State_Buckeyes.png
+FBS,Penn State,Nittany Lions,https://footballpedia.s3.amazonaws.com/logo/Division+1/Penn_State_Nittany_Lions.png
+FBS,Purdue,Boilermakers,https://footballpedia.s3.amazonaws.com/logo/Division+1/Purdue_Boilermakers.png
+FBS,Rutgers,Scarlet Knights,https://footballpedia.s3.amazonaws.com/logo/Division+1/Rutgers_Scarlet_Knights.png
+FBS,Wisconsin,Badgers,https://s3.amazonaws.com/footballpedia/logo/Division+1/Wisconsin_Badgers.png
+FBS,Alabama-Birmingham,Blazers,https://footballpedia.s3.amazonaws.com/logo/Division+1/Alabama-Birmingham_Blazers.png
+FBS,Charlotte,49ers,https://footballpedia.s3.amazonaws.com/logo/Division+1/Charlotte_49ers.png
+FBS,Florida Atlantic,Owls,https://footballpedia.s3.amazonaws.com/logo/Division+1/Florida_Atlantic_Owls.png
+FBS,Florida International,Golden Panthers,https://footballpedia.s3.amazonaws.com/logo/Division+1/Florida_International_Golden_Panthers.png
+FBS,Louisiana Tech,Bulldogs,https://footballpedia.s3.amazonaws.com/logo/Division+1/Louisiana_Tech_Bulldogs.png
+FBS,Marshall,Thundering Herd,https://footballpedia.s3.amazonaws.com/logo/Division+1/Marshall_Thundering_Herd.png
+FBS,Middle Tennessee State,Blue Raiders,https://s3.amazonaws.com/footballpedia/logo/Division+1/Middle_Tennessee_Blue_Raiders.png
+FBS,North Texas,Mean Green,https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/North_Texas_Mean_Green_logo.svg/800px-North_Texas_Mean_Green_logo.svg.png
+FBS,Old Dominion,Monarchs,https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Old_Dominion_Athletics_logo.svg/1024px-Old_Dominion_Athletics_logo.svg.png
+FBS,Rice,Owls,https://footballpedia.s3.amazonaws.com/logo/Division+1/Rice_Owls.png
+FBS,Southern Mississippi,Golden Eagles,https://footballpedia.s3.amazonaws.com/logo/Division+1/Southern_Mississippi_Golden_Eagles.png
+FBS,Texas-El Paso,Miners,https://footballpedia.s3.amazonaws.com/logo/Division+1/Texas-El_Paso_Miners.png
+FBS,Texas-San Antonio,Roadrunners,https://s3.amazonaws.com/footballpedia/logo/Division+1/UTSA_Roadrunners.png
+FBS,Western Kentucky,Hilltoppers,https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/WKU_Athletics_logo.svg/1280px-WKU_Athletics_logo.svg.png
+FCS,Albany,Great Danes,http://content.sportslogos.net/logos/30/818/thumbs/81878742008.gif
+FCS,Delaware,Fightin' Blue Hens,https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Delaware_Football_wordmark.svg/1024px-Delaware_Football_wordmark.svg.png
+FCS,Elon,Phoenix,https://upload.wikimedia.org/wikipedia/en/thumb/3/3c/Elon_Phoenix_logo.svg/1280px-Elon_Phoenix_logo.svg.png
+FCS,James Madison,Dukes,https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/James_Madison_University_Athletics_logo.svg/1024px-James_Madison_University_Athletics_logo.svg.png
+FCS,Maine,Black Bears,https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Maine_Black_Bears_logo.svg/1280px-Maine_Black_Bears_logo.svg.png
+FCS,New Hampshire,Wildcats,https://upload.wikimedia.org/wikipedia/en/thumb/6/62/New_Hampshire_Wildcats_logo.svg/1024px-New_Hampshire_Wildcats_logo.svg.png
+FCS,Rhode Island,Rams,https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Rhode_Island_Rams_logo.svg/800px-Rhode_Island_Rams_logo.svg.png
+FCS,Richmond,Spiders,https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Richmond_Spiders_logo.svg/800px-Richmond_Spiders_logo.svg.png
+FCS,Stony Brook,Seawolves,https://upload.wikimedia.org/wikipedia/en/thumb/3/35/Stony_Brook_Seawolves_logo.svg/1280px-Stony_Brook_Seawolves_logo.svg.png
+FCS,Towson,Tigers,https://upload.wikimedia.org/wikipedia/en/thumb/7/72/Towson_Tigers_logo.svg/1280px-Towson_Tigers_logo.svg.png
+FCS,Villanova,Wildcats,https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Villanova_Wildcats_logo.svg/1024px-Villanova_Wildcats_logo.svg.png
+FCS,William & Mary,Tribe,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/William_and_Mary_Tribe_wordmark.svg/1024px-William_and_Mary_Tribe_wordmark.svg.png
+D3,Becker,Hawks,https://footballpedia.s3.amazonaws.com/logo/Division+3/Becker_Hawks.jpg
+D3,Curry,Colonels,https://footballpedia.s3.amazonaws.com/logo/Division+3/Curry_Colonels.jpg
+D3,Endicott,Gulls,https://footballpedia.s3.amazonaws.com/logo/Division+3/Endicott_Gulls.png
+D3,New England,Nor'easters,https://pbs.twimg.com/profile_images/789287203457359872/CQQPbQGC_400x400.jpg
+D3,Nichols,Bison,https://footballpedia.s3.amazonaws.com/logo/Division+3/Nichols_Bison.png
+D3,Salve Regina,Seahawks,https://footballpedia.s3.amazonaws.com/logo/Division+3/Salve_Regina_Seahawks.jpg
+D3,Western New England,Golden Bears,https://footballpedia.s3.amazonaws.com/logo/Division+3/Western_New_England_Golden_Bears.jpg
+D3,Augustana (IL),Vikings,https://i.turner.ncaa.com/sites/default/files/images/logos/schools/bgd/augustana-il.svg
+D3,Carroll (WI),Pioneers,https://pbs.twimg.com/profile_images/723544686204477442/g0aKKyPj_400x400.jpg
+D3,Carthage,Red Men,https://footballpedia.s3.amazonaws.com/logo/Division+3/Carthage_Red_Men.jpg
+D3,Elmhurst,Bluejays,https://footballpedia.s3.amazonaws.com/logo/Division+3/Elmhurst_Bluejays.jpg
+D3,Illinois Wesleyan,Titans,https://footballpedia.s3.amazonaws.com/logo/Division+3/Illinois_Wesleyan_Titans.jpg
+D3,Millikin,Big Blue,https://footballpedia.s3.amazonaws.com/logo/Division+3/Millikin_Big_Blue.png
+D3,North Central,Cardinals,https://footballpedia.s3.amazonaws.com/logo/Division+3/North_Central_Cardinals.jpg
+D3,North Park,Vikings,https://footballpedia.s3.amazonaws.com/logo/Division+3/North_Park_Vikings.png
+D3,Washington St. Louis,Bears,https://footballpedia.s3.amazonaws.com/logo/Division+3/Washington_St._Louis_Bears.jpg
+D3,Wheaton (IL),Thunder,https://i.turner.ncaa.com/sites/default/files/images/logos/schools/bgd/wheaton-il.svg
+D3,Dickinson,Red Devils,https://footballpedia.s3.amazonaws.com/logo/Division+3/Dickinson_Red_Devils.jpg
+D3,Franklin & Marshall,Diplomats,https://i.turner.ncaa.com/sites/default/files/images/logos/schools/bgd/frank-marsh.svg
+D3,Gettysburg,Bullets,https://footballpedia.s3.amazonaws.com/logo/Division+3/Gettysburg_Bullets.png
+D3,Johns Hopkins,Blue Jays,https://footballpedia.s3.amazonaws.com/logo/Division+3/Johns_Hopkins_Blue_Jays.png
+D3,Juniata,Eagles,https://footballpedia.s3.amazonaws.com/logo/Division+3/Juniata_Eagles.png
+D3,McDaniel,Green Terror,https://footballpedia.s3.amazonaws.com/logo/Division+3/McDaniel_Green_Terror.jpg
+D3,Moravian,Greyhounds,https://footballpedia.s3.amazonaws.com/logo/Division+3/Moravian_Greyhounds.jpg
+D3,Muhlenberg,Mules,https://footballpedia.s3.amazonaws.com/logo/Division+3/Muhlenberg_Mules.png
+D3,Susquehanna,Crusaders,https://footballpedia.s3.amazonaws.com/logo/Division+3/Susquehanna_Crusaders.jpg
+D3,Ursinus,Bears,https://footballpedia.s3.amazonaws.com/logo/Division+3/Ursinus_Bears.jpg
+D2,Bowie State,Bulldogs,https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Bowie_State_Bulldogs_logo.svg/200px-Bowie_State_Bulldogs_logo.svg.png
+D2,Chowan,Hawks,https://pbs.twimg.com/profile_images/290559300/twitter_logo__400x400.jpg
+D2,Elizabeth City State,Vikings,https://footballpedia.s3.amazonaws.com/logo/Division+2/Elizabeth_City_State_Vikings.svg
+D2,Fayetteville State,Broncos,https://pbs.twimg.com/profile_images/923719216586424320/LQO1ZyDT_400x400.jpg
+D2,Johnson C. Smith,Golden Bulls,https://pbs.twimg.com/profile_images/1006971276722950144/rogbNDvH_400x400.jpg
+D2,Lincoln (PA),Lions,https://pbs.twimg.com/profile_images/1039901571054817280/93W8AiLq_400x400.jpg
+D2,Livingstone,Blue Bears,https://pbs.twimg.com/profile_images/661182176/BlueBears_No_Background_400x400.jpg
+D2,Saint Augustine's,Falcons,https://pbs.twimg.com/profile_images/853313236799807489/mdR7XezY_400x400.jpg
+D2,Shaw,Bears,https://footballpedia.s3.amazonaws.com/logo/Division+2/Shaw_Bears.png
+D2,Virginia State,Trojans,https://footballpedia.s3.amazonaws.com/logo/Division+2/Virginia_State_Trojans.png
+D2,Virginia Union,Panthers,https://footballpedia.s3.amazonaws.com/logo/Division+2/Virginia_Union_Panthers.png
+D2,Winston-Salem State,Rams,https://cdn.prestosports.com/action/cdn/img/mw=760/mh=629/cr=n/d=uy818/fm4g2q6bp5szfe7z.jpg
+D2,UNC Pembroke,Braves,https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/UNC_Pembroke_Braves_logo.svg/1200px-UNC_Pembroke_Braves_logo.svg.png
+D3,Alfred State,Pioneers,https://pbs.twimg.com/profile_images/1019273459845615616/7DVFNeAC_400x400.jpg
+D3,Anna Maria,AMCATS,https://pbs.twimg.com/profile_images/1009858245157163010/TxSPru2v_400x400.jpg
+D3,Castleton,Spartans,https://footballpedia.s3.amazonaws.com/logo/Division+3/Dean_Bulldogs.jpg
+D3,Dean,Bulldogs,https://footballpedia.s3.amazonaws.com/logo/Division+3/Dean_Bulldogs.jpg
+D3,Gallaudet,Bison,https://footballpedia.s3.amazonaws.com/logo/Division+3/Gallaudet_Bison.png
+D3,Husson,Eagles,https://footballpedia.s3.amazonaws.com/logo/Division+3/Husson_Eagles.png
+D3,SUNY Maritime,Privateers,https://pbs.twimg.com/profile_images/1063125949355565057/4_6WtDoK_400x400.jpg
+D3,Alfred,Saxons,https://footballpedia.s3.amazonaws.com/logo/Division+3/Alfred_Saxons.jpg
+D3,Brockport,Golden Eagles,https://footballpedia.s3.amazonaws.com/logo/Division+3/Brockport_Golden_Eagles.jpg
+D3,Buffalo State,Bengals,https://footballpedia.s3.amazonaws.com/logo/Division+3/Buffalo_State_Bengals.jpg
+D3,Cortland State,Red Dragons,https://footballpedia.s3.amazonaws.com/logo/Division+3/Cortland_State_Red_Dragons.png
+D3,Hartwick,Hawks,https://footballpedia.s3.amazonaws.com/logo/Division+3/Hartwick_Hawks.jpg
+D3,Morrisville State,Mustangs,https://i.turner.ncaa.com/sites/default/files/images/logos/schools/bgd/morrisville-st.svg
+D3,St. John Fisher,Cardinals,https://footballpedia.s3.amazonaws.com/logo/Division+3/St._John_Fisher_Cardinals.png
+D3,Utica,Pioneers,https://footballpedia.s3.amazonaws.com/logo/Division+3/Utica_Pioneers.png
+FBS,Army,Black Knights,https://footballpedia.s3.amazonaws.com/logo/Division+1/Army_Black_Knights.png
+FBS,Brigham Young,Cougars,https://s3.amazonaws.com/footballpedia/logo/Division+1/BYU_Cougars.png
+FBS,Liberty,Flames,https://footballpedia.s3.amazonaws.com/logo/Division+1/Liberty_Flames.png
+FBS,Massachusetts,Minutemen,https://s3.amazonaws.com/footballpedia/logo/Division+1/UMass_Minutemen.png
+FBS,New Mexico State,Aggies,https://footballpedia.s3.amazonaws.com/logo/Division+1/New_Mexico_State_Aggies.png
+FBS,Notre Dame,Fighting Irish,https://footballpedia.s3.amazonaws.com/logo/Division+1/Notre_Dame_Fighting_Irish.png
+FBS,Notre Dame,Fighting Irish,https://footballpedia.s3.amazonaws.com/logo/Division+1/Notre_Dame_Fighting_Irish.png
+FCS,Hampton,Pirates,https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/Hampton_Pirates_logo.svg/800px-Hampton_Pirates_logo.svg.png
+FCS,North Alabama,Lions,https://pbs.twimg.com/profile_images/1020289787536859136/Xh3xHcmu_400x400.jpg
+FCS,North Dakota,Fighting Hawks,https://upload.wikimedia.org/wikipedia/en/thumb/9/92/North_Dakota_Fighting_Hawks_logo.svg/1920px-North_Dakota_Fighting_Hawks_logo.svg.png
+NAIA,Carroll (MT),Fighting Saints,https://a.espncdn.com/i/teamlogos/ncaa/500/2104.png
+NAIA,College of Idaho,Coyotes,https://pbs.twimg.com/profile_images/687016093223796736/okhoanzo_400x400.jpg
+NAIA,Eastern Oregon,Mountaineers,https://eousports.com/images/main_logo.png
+NAIA,Montana State-Northern,Lights,https://pbs.twimg.com/profile_images/1075504500679438336/8IxO3yev_400x400.jpg
+NAIA,Montana Tech,Orediggers,https://pbs.twimg.com/profile_images/892131259937206272/2KUJz6SE_400x400.jpg
+NAIA,Montana Western,Bulldogs,https://a.espncdn.com/i/teamlogos/ncaa/500/2701.png
+NAIA,Rocky Mountain,Battlin' Bears,https://pbs.twimg.com/profile_images/1059613953586716672/lNRRFP3u_400x400.jpg
+NAIA,Southern Oregon,Raiders,https://footballpedia.s3.amazonaws.com/logo/NAIA/Southern_Oregon_Raiders.png
+D2,Alderson-Broaddus,Battlers,https://pbs.twimg.com/profile_images/1085923412160233473/-h7I0zBE_400x400.jpg
+D2,Findlay,Oilers,https://footballpedia.s3.amazonaws.com/logo/Division+2/Findlay_Oilers.png
+D2,Hillsdale,Chargers,https://pbs.twimg.com/profile_images/513515882333491200/Rjr5oH3x_400x400.jpeg
+D2,Ky. Wesleyan,Panthers,https://pbs.twimg.com/profile_images/1148290488857968640/7LNPxozH_400x400.jpg
+D2,Lake Erie,Storm,https://footballpedia.s3.amazonaws.com/logo/Division+2/Lake_Erie_Storm.png
+D2,Malone,Pioneers,https://pbs.twimg.com/profile_images/1259609014/Twitter_Logo_2_400x400.jpg
+D2,Ohio Dominican,Panthers,https://footballpedia.s3.amazonaws.com/logo/Division+2/Ohio_Dominican_Panthers.png
+D2,Tiffin,Dragons,https://upload.wikimedia.org/wikipedia/en/1/1d/TiffinDragons.png
+D2,Walsh,Cavaliers,https://pbs.twimg.com/profile_images/961281049841061889/4neA4MdO_400x400.jpg
+D2,Arkansas Tech,Wonder Boys,https://footballpedia.s3.amazonaws.com/logo/Division+2/Arkansas_Tech_Wonder_Boys.png
+D2,Arkansas-Monticello,Boll Weevils,https://i.turner.ncaa.com/sites/default/files/images/logos/schools/bgd/ark-monticello.svg
+D2,East Central,Tigers,https://pbs.twimg.com/profile_images/968257845832511488/PK8RBnEG_400x400.jpg
+D2,Harding,Bisons,https://hardingsports.com/images/responsive/scroll_logo.png
+D2,Henderson State,Reddies,https://footballpedia.s3.amazonaws.com/logo/Division+2/Henderson_State_Reddies.png
+D2,Northwestern Oklahoma,Rangers,https://upload.wikimedia.org/wikipedia/en/0/0e/NWOSU_Rangers.png
+D2,Southwestern Oklahoma,Bulldogs,https://upload.wikimedia.org/wikipedia/en/9/95/SWOSU_logo.png
+D2,Oklahoma Baptist,Bison,https://footballpedia.s3.amazonaws.com/logo/Division+2/Oklahoma_Baptist_Bison.png
+D2,Ouachita Baptist,Tigers,https://pbs.twimg.com/profile_images/496403549597626368/h2QrY31Y_400x400.jpeg
+D2,Southeastern Oklahoma,Savage Storm,https://pbs.twimg.com/profile_images/1034084247420559361/Y7A_EVY5_400x400.jpg
+D2,Southern Arkansas,Muleriders,https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Southern_Arkansas_Muleriders_logo.svg/150px-Southern_Arkansas_Muleriders_logo.svg.png
+D2,Southern Nazarene,Crimson Storm,https://pbs.twimg.com/profile_images/1073598231815315456/kNR70QuU_400x400.jpg
+D2,Ashland,Eagles,https://i.turner.ncaa.com/sites/default/files/images/logos/schools/bgd/ashland.svg
+D2,Davenport,Panthers,https://footballpedia.s3.amazonaws.com/logo/Division+2/Davenport_Panthers.png
+D2,Ferris State,Bulldogs,https://footballpedia.s3.amazonaws.com/logo/Division+2/Ferris_State_Bulldogs.png
+D2,Grand Valley State,Lakers,https://footballpedia.s3.amazonaws.com/logo/Division+2/Grand_Valley_State_Lakers.png
+D2,Michigan Tech,Huskies,https://upload.wikimedia.org/wikipedia/en/thumb/d/d6/Michigan_Tech_Athletics_logo.svg/1200px-Michigan_Tech_Athletics_logo.svg.png
+D2,Northern Michigan,Wildcats,https://footballpedia.s3.amazonaws.com/logo/Division+2/Northern_Michigan_Wildcats.png
+D2,Northwood (MI),Timberwolves,https://pbs.twimg.com/profile_images/916860309113098240/3o3LK4Au_400x400.jpg
+D2,Saginaw Valley,Cardinals,https://pbs.twimg.com/profile_images/179173852/cardinal_400x400.gif
+D2,Wayne State,Warriors,https://footballpedia.s3.amazonaws.com/logo/Division+2/Wayne_State_Warriors.png
+D2,Indianapolis,Greyhounds,https://i.turner.ncaa.com/sites/default/files/images/logos/schools/bgd/indianapolis.svg
+D2,Lincoln (MO),Blue Tigers,https://pbs.twimg.com/profile_images/825030892259332096/AWvNVg_a_400x400.jpg
+D2,McKendree,Bearcats,https://pbs.twimg.com/profile_images/672070919259484160/1LHsd7M2_400x400.jpg
+D2,Missouri S&T,Miners,https://pbs.twimg.com/profile_images/984149644182630400/BDPOcRGi_400x400.jpg
+D2,Quincy,Hawks,https://footballpedia.s3.amazonaws.com/logo/Division+2/Quincy_Hawks.png
+D2,Southwest Baptist,Bearcats,https://footballpedia.s3.amazonaws.com/logo/Division+2/Southwest_Baptist_Bearcats.png
+D2,Truman State,Bulldogs,https://pbs.twimg.com/profile_images/1055241302219124738/aKr_b_BK_400x400.jpg
+D2,William Jewell,Cardinals,https://pbs.twimg.com/profile_images/1018949827583971329/yzwH6uVC_400x400.jpg
+NAIA,Briar Cliff (IA),Chargers,https://pbs.twimg.com/profile_images/1097880073179488256/-pQxA5fq_400x400.jpg
+NAIA,Concordia (NE),Bulldogs,https://pbs.twimg.com/profile_images/1008787600432193536/vemCWE5m_400x400.jpg
+NAIA,Dakota Wesleyan,Tigers,https://footballpedia.s3.amazonaws.com/logo/NAIA/Dakota_Wesleyan_Tigers.jpg
+NAIA,Doane,Tigers,https://footballpedia.s3.amazonaws.com/logo/NAIA/Doane_Tigers.jpg
+NAIA,Dordt,Defenders,https://www.dordt.edu/sites/default/files/default-athletics.png
+NAIA,Hastings,Broncos,https://pbs.twimg.com/profile_images/691748181093167105/JbftO8c2_400x400.png
+NAIA,Jamestown,Jimmies,https://footballpedia.s3.amazonaws.com/logo/NAIA/Jamestown_Jimmies.jpg
+NAIA,Midland,Warriors,https://footballpedia.s3.amazonaws.com/logo/NAIA/Midland_Warriors.jpg
+NAIA,Morningside,Mustangs,https://pbs.twimg.com/profile_images/1124058530133303297/4AKSyRLl_400x400.png
+NAIA,Northwestern (IA),Red Raiders,https://pbs.twimg.com/profile_images/638723780148248576/MD82gEM0_400x400.jpg
+D2,Azusa Pacific,Cougars,https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Azusa_Pacific_Cougars_logo.svg/150px-Azusa_Pacific_Cougars_logo.svg.png
+D2,Central Washington,Wildcats,https://pbs.twimg.com/profile_images/735607918477737984/DEcVpu_C_400x400.jpg
+D2,Western Oregon,Wolves,https://pbs.twimg.com/profile_images/1119458985642348546/7SzRy-I8_400x400.png
+D2,Humboldt State,Lumberjacks,https://pbs.twimg.com/profile_images/449656719266680832/f6z3rDpS_400x400.jpeg
+D2,Simon Fraser,Clan,https://footballpedia.s3.amazonaws.com/logo/Division+2/Simon_Fraser_Clan.png
+D2,Delta State,Statesmen,https://pbs.twimg.com/profile_images/451808306445553664/lH0mgmfx_400x400.jpeg
+D2,Florida Tech,Panthers,https://pbs.twimg.com/profile_images/1141419815363649538/x1h94j83_400x400.jpg
+D2,Mississippi College,Choctaws,https://upload.wikimedia.org/wikipedia/en/5/57/Mississippi_College_Choctaws_logo.png
+D2,North Greenville,Crusaders,http://cdn.streamlinetechnologies.com/nguathletics/template/header-logo.png
+D2,Shorter,Hawks,https://footballpedia.s3.amazonaws.com/logo/Division+2/Shorter_Hawks.jpg
+D2,Valdosta State,Blazers,https://footballpedia.s3.amazonaws.com/logo/Division+2/Valdosta_State_Blazers.png
+D2,West Alabama,Tigers,https://footballpedia.s3.amazonaws.com/logo/Division+2/West_Alabama_Tigers.png
+D2,West Florida,Argonauts,https://footballpedia.s3.amazonaws.com/logo/Division+2/West_Florida_Argonauts.png
+D2,West Georgia,Wolves,https://footballpedia.s3.amazonaws.com/logo/Division+2/West_Georgia_Wolves.png
+NAIA,Baker,Wildcats,https://pbs.twimg.com/profile_images/887351468814028800/yapdWLvE_400x400.jpg
+NAIA,Central Methodist,Eagles,https://pbs.twimg.com/profile_images/1115710061484085250/_qtGEC74_400x400.png
+NAIA,Evangel,Crusaders,https://footballpedia.s3.amazonaws.com/logo/NAIA/Evangel_Crusaders.jpg
+NAIA,MidAmerica Nazarene,Pioneers,"https://www.mnu.edu/sites/default/files/styles/thumbnail_320x180/public/2017-09/xArchMNU,P2BIcon_3color.png,qitok=xTcp2-jO.pagespeed.ic.LNHF-ojkNT.webp"
+NAIA,Missouri Valley,Vikings,https://pbs.twimg.com/profile_images/1143540307608444928/r4uyx4Xr_400x400.jpg
+NAIA,Benedictine (KS),Ravens,https://pbs.twimg.com/profile_images/947168181101068288/cDcU0lF6_400x400.jpg
+NAIA,Culver-Stockton,Wildcats,https://pbs.twimg.com/profile_images/2281466078/vg3dvt4yreu4fq9ye2gd_400x400.jpeg
+NAIA,Graceland (IA),YellowJackets,https://pbs.twimg.com/profile_images/758833039631749121/mxQr9TX5_400x400.jpg
+NAIA,Grand View,Vikings,https://pbs.twimg.com/profile_images/919285657398214656/-gB3ZqOd_400x400.jpg
+NAIA,Peru State,Bobcats,https://pbs.twimg.com/profile_images/502153598948487168/Y4LXyhOL_400x400.jpeg
+NAIA,William Penn,Statesmen,https://pbs.twimg.com/profile_images/1144009780828225537/cPk5Ot8c_400x400.jpg
+D3,Anderson,Ravens,https://pbs.twimg.com/profile_images/1031628307379433473/6hPyUc7I_400x400.jpg
+D3,Bluffton,Beavers,https://footballpedia.s3.amazonaws.com/logo/Division+3/Bluffton_Beavers.jpg
+D3,Defiance,YellowJackets,https://footballpedia.s3.amazonaws.com/logo/Division+3/Defiance_YellowJackets.jpg
+D3,Earlham,Quakers,https://pbs.twimg.com/profile_images/900746523176259584/w-pHwUmq_400x400.jpg
+D3,Franklin,Grizzlies,https://footballpedia.s3.amazonaws.com/logo/Division+3/Franklin_Grizzlies.png
+D3,Hanover,Panthers,https://footballpedia.s3.amazonaws.com/logo/Division+3/Hanover_Panthers.jpg
+D3,Manchester,Spartans,https://footballpedia.s3.amazonaws.com/logo/Division+3/Manchester_Spartans.jpg
+D3,Mount St. Joseph,Lions,https://i.turner.ncaa.com/sites/default/files/images/logos/schools/bgd/mt-st-joseph.svg
+D3,Rose-Hulman,Engineers,https://pbs.twimg.com/profile_images/580070644106182656/lV6K4Nlm_400x400.jpg
+FCS,Brown,Bears,https://upload.wikimedia.org/wikipedia/commons/5/5d/Brown_Bears_wordmark.png
+FCS,Columbia,Lions,https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Columbia_Lions_logo.svg/800px-Columbia_Lions_logo.svg.png
+FCS,Cornell,Big Red,https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Cornell_Big_Red_logo.svg/1024px-Cornell_Big_Red_logo.svg.png
+FCS,Dartmouth,Big Green,https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Dartmouth_College_Big_Green_logo.svg/800px-Dartmouth_College_Big_Green_logo.svg.png
+FCS,Harvard,Crimson,https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Harvard_Crimson_logo.svg/800px-Harvard_Crimson_logo.svg.png
+FCS,Pennsylvania,Quakers,https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Penn_Quakers_logo.svg/800px-Penn_Quakers_logo.svg.png
+FCS,Princeton,Tigers,https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Princeton_Tigers_logo.svg/800px-Princeton_Tigers_logo.svg.png
+FCS,Yale,Bulldogs,https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Yale_Bulldogs_script.svg/1024px-Yale_Bulldogs_script.svg.png
+NAIA,Avila,Eagles,https://footballpedia.s3.amazonaws.com/logo/NAIA/Avila_Eagles.png
+NAIA,Bethany (KS),Terrible Swedes,https://pbs.twimg.com/profile_images/877996691810508800/l0NgpkQ0_400x400.jpg
+NAIA,Bethel (KS),Threshers,https://s3-us-west-2.amazonaws.com/scorestream-team-profile-pictures/283628/20190502045308_733_mascot720.png
+NAIA,Friends,Falcons,https://footballpedia.s3.amazonaws.com/logo/NAIA/Friends_Falcons.jpg
+NAIA,Kansas Wesleyan,Coyotes,https://pbs.twimg.com/profile_images/888073938718216192/miFCM48S_400x400.jpg
+NAIA,McPherson,Bulldogs,https://pbs.twimg.com/profile_images/1006306394746773504/QXyo1Ijh_400x400.jpg
+NAIA,Ottawa,Braves,https://pbs.twimg.com/profile_images/684045028314906625/2rUJM3oF_400x400.jpg
+NAIA,Saint Mary (KS),Spires,https://pbs.twimg.com/profile_images/591317813480009729/kcUmfevP_400x400.png
+NAIA,Southwestern (KS),Moundbuilders,https://pbs.twimg.com/profile_images/2489562103/8s9g93ubr0ptik95zfh8_400x400.jpeg
+NAIA,Sterling,Warriors,https://footballpedia.s3.amazonaws.com/logo/NAIA/Sterling_Warriors.png
+NAIA,Tabor,Bluejays,https://footballpedia.s3.amazonaws.com/logo/NAIA/Tabor_Bluejays.png
+D3,Hobart,Statesmen,https://footballpedia.s3.amazonaws.com/logo/Division+3/Hobart_Statesmen.jpg
+D3,Ithaca,Bombers,https://footballpedia.s3.amazonaws.com/logo/Division+3/Ithaca_Bombers.jpg
+D3,Rensselaer,Engineers,https://pbs.twimg.com/profile_images/1131577778552360960/osEgcm1A_400x400.png
+D3,Rochester (NY),YellowJackets,https://pbs.twimg.com/profile_images/1113445580687200256/iEMVYYMP_400x400.jpg
+D3,Saint Lawrence,Saints,https://pbs.twimg.com/profile_images/525646827220000769/3QRly2Vs_400x400.jpeg
+D3,Union (NY),Dutchmen,https://pbs.twimg.com/profile_images/764202299644317696/lXAELxBi_400x400.jpg
+D2,Angelo State,Rams,https://footballpedia.s3.amazonaws.com/logo/Division+2/Angelo_State_Rams.png
+D2,Eastern New Mexico,Greyhounds,https://footballpedia.s3.amazonaws.com/logo/Division+2/Eastern_New_Mexico_Greyhounds.png
+D2,Midwestern State,Mustangs,https://footballpedia.s3.amazonaws.com/logo/Division+2/Midwestern_State_Mustangs.png
+D2,Tarleton State,Texans,https://footballpedia.s3.amazonaws.com/logo/Division+2/Tarleton_State_Texans.png
+D2,Texas A&M-Commerce,Lions,https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/Texas_A%26M%E2%80%93Commerce_Lions_logo.svg/1024px-Texas_A%26M%E2%80%93Commerce_Lions_logo.svg.png
+D2,Texas A&M-Kingsville,Javelinas,https://pbs.twimg.com/profile_images/1093186542900858880/MhCk0Dv__400x400.jpg
+D2,UTPB,Falcons,https://pbs.twimg.com/profile_images/1074540927522287616/vBKHhYbM_400x400.jpg
+D2,West Texas A&M,Buffaloes,https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/West_Texas_A%26M_Athletics_logo.svg/1024px-West_Texas_A%26M_Athletics_logo.svg.png
+D2,Western New Mexico,Mustangs,https://footballpedia.s3.amazonaws.com/logo/Division+2/Western_New_Mexico_Mustangs.png
+FBS,Akron,Zips,https://footballpedia.s3.amazonaws.com/logo/Division+1/Akron_Zips.png
+FBS,Ball State,Cardinals,https://footballpedia.s3.amazonaws.com/logo/Division+1/Ball_State_Cardinals.png
+FBS,Bowling Green,Falcons,https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Bowling_Green_Falcons_logo.svg/200px-Bowling_Green_Falcons_logo.svg.png
+FBS,Buffalo,Bulls,https://footballpedia.s3.amazonaws.com/logo/Division+1/Buffalo_Bulls.png
+FBS,Central Michigan,Chippewas,https://footballpedia.s3.amazonaws.com/logo/Division+1/Central_Michigan_Chippewas.png
+FBS,Eastern Michigan,Eagles,https://footballpedia.s3.amazonaws.com/logo/Division+1/Eastern_Michigan_Eagles.png
+FBS,Kent State,Golden Flashes,https://footballpedia.s3.amazonaws.com/logo/Division+1/Kent_State_Golden_Flashes.png
+FBS,Miami (OH),RedHawks,https://s3.amazonaws.com/footballpedia/logo/Division+1/Miami_Redhawks.png
+FBS,Northern Illinois,Huskies,https://footballpedia.s3.amazonaws.com/logo/Division+1/Northern_Illinois_Huskies.png
+FBS,Ohio,Bobcats,https://footballpedia.s3.amazonaws.com/logo/Division+1/Ohio_Bobcats.png
+FBS,Toledo,Rockets,https://footballpedia.s3.amazonaws.com/logo/Division+1/Toledo_Rockets.png
+FBS,Western Michigan,Broncos,https://footballpedia.s3.amazonaws.com/logo/Division+1/Western_Michigan_Broncos.png
+D3,Bridgewater State,Bears,https://footballpedia.s3.amazonaws.com/logo/Division+3/Bridgewater_State_Bears.jpg
+D3,Fitchburg State,Falcons,https://footballpedia.s3.amazonaws.com/logo/Division+3/Fitchburg_State_Falcons.jpg
+D3,Framingham State,Rams,https://footballpedia.s3.amazonaws.com/logo/Division+3/Framingham_State_Rams.jpg
+D3,Massachusetts Maritime,Buccaneers,https://footballpedia.s3.amazonaws.com/logo/Division+3/Massachusetts_Maritime_Buccaneers.jpg
+D3,Massachusetts-Dartmouth,Corsairs,https://pbs.twimg.com/profile_images/637080014253629440/YSBo5MY__400x400.jpg
+D3,Plymouth State,Panthers,https://footballpedia.s3.amazonaws.com/logo/Division+3/Plymouth_State_Panthers.jpg
+D3,Western Connecticut,Colonials,https://pbs.twimg.com/profile_images/1042226048258068480/Spp51T11_400x400.jpg
+D3,Westfield State,Owls,https://footballpedia.s3.amazonaws.com/logo/Division+3/Westfield_State_Owls.png
+D3,Worcester State,Lancers,https://footballpedia.s3.amazonaws.com/logo/Division+3/Worcester_State_Lancers.jpg
+FCS,Bethune-Cookman,Wildcats,https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Bethune%E2%80%93Cookman_Wildcats_logo.svg/1024px-Bethune%E2%80%93Cookman_Wildcats_logo.svg.png
+FCS,Delaware State,Hornets,https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Delaware_State_Hornets_wordmark.svg/1024px-Delaware_State_Hornets_wordmark.svg.png
+FCS,Florida A&M,Rattlers,https://upload.wikimedia.org/wikipedia/en/thumb/5/54/Florida_A%26M_Rattlers_logo.svg/1280px-Florida_A%26M_Rattlers_logo.svg.png
+FCS,Howard,Bison,https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Howard_Bison_logo.svg/800px-Howard_Bison_logo.svg.png
+FCS,Morgan State,Bears,https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Morgan_State_Bears_logo.svg/1280px-Morgan_State_Bears_logo.svg.png
+FCS,Norfolk State,Spartans,https://upload.wikimedia.org/wikipedia/en/thumb/7/78/Norfork_State_Spartans_logo.svg/1024px-Norfork_State_Spartans_logo.svg.png
+FCS,North Carolina A&T,Aggies,https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/North_Carolina_A%26T_Aggies_logo.svg/800px-North_Carolina_A%26T_Aggies_logo.svg.png
+FCS,North Carolina Central,Eagles,https://upload.wikimedia.org/wikipedia/en/a/ae/NCCU_Eagles_logo.png
+FCS,Savannah State,Tigers,https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Savannah_State_Tigers_logo.svg/1920px-Savannah_State_Tigers_logo.svg.png
+FCS,South Carolina State,Bulldogs,https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/South_Carolina_State_Bulldogs_logo.svg/800px-South_Carolina_State_Bulldogs_logo.svg.png
+D2,Charleston (WV),Golden Eagles,https://pbs.twimg.com/profile_images/898568109019193345/MlGLI_7Y_400x400.jpg
+D2,Concord,Mountain Lions,https://footballpedia.s3.amazonaws.com/logo/Division+2/Concord_Mountain_Lions.png
+D2,Fairmont State,Falcons,https://pbs.twimg.com/profile_images/1009543139873435648/lr3fdcYS_400x400.jpg
+D2,Glenville State,Pioneers,https://pbs.twimg.com/profile_images/961794273023799297/caGddj4J_400x400.jpg
+D2,Notre Dame (OH),Falcons,https://pbs.twimg.com/profile_images/1118651392510636033/W613GVzG_400x400.jpg
+D2,Shepherd,Rams,https://footballpedia.s3.amazonaws.com/logo/Division+2/Shepherd_Rams.png
+D2,Urbana,Blue Knights,https://pbs.twimg.com/profile_images/953033867820224512/9r7bIFBZ_400x400.jpg
+D2,UVa-Wise,Cavaliers,https://pbs.twimg.com/profile_images/1151530018536919043/mG-8qaJ8_400x400.jpg
+D2,West Liberty,Hilltoppers,https://footballpedia.s3.amazonaws.com/logo/Division+2/West_Liberty_Hilltoppers.png
+D2,West Virginia State,Yellow Jackets,https://pbs.twimg.com/profile_images/832626884731084801/AKZIGNve_400x400.jpg
+D2,West Virginia Wesleyan,Bobcats,https://pbs.twimg.com/profile_images/723678915965784064/VD9DY4Tu_400x400.jpg
+D2,Central Missouri,Mules,https://footballpedia.s3.amazonaws.com/logo/Division+2/Central_Missouri_Mules.png
+D2,Central Oklahoma,Bronchos,https://pbs.twimg.com/profile_images/534144888/UCOlogo500_400x400.jpg
+D2,Emporia State,Hornets,https://footballpedia.s3.amazonaws.com/logo/Division+2/Emporia_State_Hornets.png
+D2,Fort Hays State,Tigers,https://cdn.herosports.com/upload/school/school-logo/fort-hays-st-logo.png
+D2,Lindenwood (MO),Lions,https://pbs.twimg.com/profile_images/957018626816487424/gANsPil7_400x400.jpg
+D2,Missouri Southern State,Lions,https://pbs.twimg.com/profile_images/615231927436509184/51bQ5ZYt_400x400.jpg
+D2,Missouri Western,Griffons,https://footballpedia.s3.amazonaws.com/logo/Division+2/Missouri_Western_Griffons.png
+D2,Nebraska-Kearney,Lopers,https://upload.wikimedia.org/wikipedia/en/thumb/6/65/Nebraska%E2%80%93Kearney_Lopers_logo.svg/1200px-Nebraska%E2%80%93Kearney_Lopers_logo.svg.png
+D2,Northeastern State,RiverHawks,https://pbs.twimg.com/profile_images/1014145209259606017/SvIrFGZJ_400x400.jpg
+D2,Northwest Missouri State,Bearcats,https://footballpedia.s3.amazonaws.com/logo/Division+2/Northwest_Missouri_State_Bearcats.png
+D2,Pittsburg State,Gorillas,https://footballpedia.s3.amazonaws.com/logo/Division+2/Pittsburg_State_Gorillas.png
+D2,Washburn,Ichabods,https://footballpedia.s3.amazonaws.com/logo/Division+2/Washburn_Ichabods.png
+D3,Adrian,Bulldogs,https://footballpedia.s3.amazonaws.com/logo/Division+3/Adrian_Bulldogs.jpg
+D3,Albion,Britons,https://footballpedia.s3.amazonaws.com/logo/Division+3/Albion_Britons.jpg
+D3,Alma,Scots,https://footballpedia.s3.amazonaws.com/logo/Division+3/Alma_Scots.jpg
+D3,Finlandia,Lions,https://footballpedia.s3.amazonaws.com/logo/Division+3/Finlandia_Lions.png
+D3,Hope,Flying Dutchmen,https://footballpedia.s3.amazonaws.com/logo/Division+3/Hope_Flying_Dutchmen.png
+D3,Kalamazoo,Hornets,https://footballpedia.s3.amazonaws.com/logo/Division+3/Kalamazoo_Hornets.png
+D3,Olivet,Comets,https://footballpedia.s3.amazonaws.com/logo/Division+3/Olivet_Comets.png
+D3,Trine,Thunder,https://footballpedia.s3.amazonaws.com/logo/Division+3/Trine_Thunder.jpg
+D3,Augsburg,Auggies,https://footballpedia.s3.amazonaws.com/logo/Division+3/Augsburg_Auggies.jpg
+D3,Bethel (MN),Royals,https://athletics.bethel.edu/images/assets/logo_sports.png
+D3,Carleton,Knights,https://footballpedia.s3.amazonaws.com/logo/Division+3/Carleton_Knights.jpg
+D3,Concordia College (Moorhead),Cobbers,http://moorheadelectric.com/wp-content/uploads/2014/03/Concordia-Cobbers.png
+D3,Gustavus Adolphus,Gusties,https://gustavus.edu/images/gac-icon.png
+D3,Hamline,Pipers,https://footballpedia.s3.amazonaws.com/logo/Division+3/Hamline_Pipers.jpg
+D3,Saint John's (MN),Johnnies,https://pbs.twimg.com/profile_images/1036640947000487936/KGCbdn6s_400x400.jpg
+D3,Saint Olaf,Oles,https://stolaf_ftp.sidearmsports.com/custompages/logos/athletics/stolaf-on-white-web-small.jpg
+D3,Saint Thomas (MN),Tommies,https://upload.wikimedia.org/wikipedia/en/thumb/4/47/STU_Tommies_Logo.svg/400px-STU_Tommies_Logo.svg.png
+NAIA,Ave Maria,Gyrenes,https://footballpedia.s3.amazonaws.com/logo/NAIA/Ave_Maria_Gyrenes.png
+NAIA,Edward Waters,Tigers,https://footballpedia.s3.amazonaws.com/logo/NAIA/Edward_Waters_Tigers.jpg
+NAIA,Faulkner,Eagles,https://pbs.twimg.com/profile_images/942911760759230464/cAJlt68b_400x400.jpg
+NAIA,Keiser,Seahawks,https://footballpedia.s3.amazonaws.com/logo/NAIA/Keiser_Seahawks.jpg
+NAIA,Southeastern (FL),Fire,https://pbs.twimg.com/profile_images/565606276852219904/VruuRtgO_400x400.jpeg
+NAIA,Warner,Royals,https://pbs.twimg.com/profile_images/1149744529832120321/hKScyvSX_400x400.png
+NAIA,Webber International,Warriors,https://pbs.twimg.com/profile_images/862322184521482241/xS7WisYR_400x400.jpg
+NAIA,Bethel (TN),Wildcats,https://s3-us-west-2.amazonaws.com/scorestream-team-profile-pictures/283626/20190501015922_603_mascot300.png
+NAIA,Campbellsville,Tigers,https://s3-us-west-2.amazonaws.com/scorestream-team-profile-pictures/279927/20190428072340_616_mascot300.png
+NAIA,Cincinnati Christian,Eagles,https://footballpedia.s3.amazonaws.com/logo/NAIA/Cincinnati_Christian_Eagles.jpg
+NAIA,Cumberland (TN),Phoenix,https://pbs.twimg.com/profile_images/789555437423263749/fileQJQY_400x400.jpg
+NAIA,Georgetown (KY),Tigers,https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Georgetown_Tigers_logo.svg/1024px-Georgetown_Tigers_logo.svg.png
+NAIA,Kentucky Christian,Knights,https://pbs.twimg.com/profile_images/1022583277658562560/ywiCHw6Y_400x400.jpg
+NAIA,Lindsey Wilson,Blue Raiders,https://s3-us-west-2.amazonaws.com/scorestream-team-profile-pictures/279959/20181010235202_641_mascot300Near.png
+NAIA,Thomas More,Saints,https://pbs.twimg.com/profile_images/1013268655180800000/vVMmuoCy_400x400.jpg
+NAIA,Bluefield,Rams,https://footballpedia.s3.amazonaws.com/logo/NAIA/Bluefield_Rams.png
+NAIA,Pikeville,Bears,https://pbs.twimg.com/profile_images/803637579597881344/urYaKPXV_400x400.jpg
+NAIA,Point,Skyhawks,https://footballpedia.s3.amazonaws.com/logo/NAIA/Point_Skyhawks.png
+NAIA,Reinhardt,Eagles,https://footballpedia.s3.amazonaws.com/logo/NAIA/Reinhardt_Eagles.jpg
+NAIA,St. Andrews,Knights,https://pbs.twimg.com/profile_images/1130535086594506754/Kmo67E5C_400x400.jpg
+NAIA,Union (KY),Bulldogs,http://d21gd0ap5v1ndt.cloudfront.net/web04/unionky/images_web/featured-athlete-logo.png
+NAIA,University of the Cumberlands (KY),Patriots,http://www.clker.com/cliparts/2/c/6/4/13466661941798240404patriot%20uc-md.png
+D3,Albright,Lions,https://footballpedia.s3.amazonaws.com/logo/Division+3/Albright_Lions.jpg
+D3,Alvernia,Golden Wolves,https://images-na.ssl-images-amazon.com/images/I/41jg%2BfNW9vL._SX425_.jpg
+D3,Delaware Valley,Aggies,https://footballpedia.s3.amazonaws.com/logo/Division+3/Delaware_Valley_Aggies.jpg
+D3,FDU-Florham,Devils,https://dbukjj6eu5tsf.cloudfront.net/sidearm.sites/fdudevils.com/responsive_2018/images/svgs/devils_head.svg
+D3,King's (PA),Monarchs,https://pbs.twimg.com/profile_images/1108735499273940994/fS5J0-_5_400x400.png
+D3,Lebanon Valley,Flying Dutchmen,https://footballpedia.s3.amazonaws.com/logo/Division+3/Lebanon_Valley_Flying_Dutchmen.jpg
+D3,Lycoming,Warriors,https://footballpedia.s3.amazonaws.com/logo/Division+3/Lycoming_Warriors.jpg
+D3,Misericordia,Cougars,https://footballpedia.s3.amazonaws.com/logo/Division+3/Misericordia_Cougars.jpg
+D3,Stevenson,Mustangs,https://footballpedia.s3.amazonaws.com/logo/Division+3/Stevenson_Mustangs.jpg
+D3,Widener,Pride,https://footballpedia.s3.amazonaws.com/logo/Division+3/Widener_Pride.png
+D3,Wilkes,Colonels,https://pbs.twimg.com/profile_images/1101168749363822593/8QpQvJFg_400x400.jpg
+NAIA,Olivet Nazarene,Tigers,http://www.onutigers.com/images_web/_default_opengraph.jpg
+NAIA,Robert Morris (IL),Eagles,https://756935.smushcdn.com/1339778/wp-content/uploads/RMU_Official_Seal.png?size=1500x1500&lossy=1&strip=1&webp=1
+NAIA,Saint Francis (IL),Fighting Saints,https://pbs.twimg.com/profile_images/1411211575/Athletic_logo-twitter_400x400.jpg
+NAIA,Saint Xavier,Cougars,https://balladeer.files.wordpress.com/2011/12/sxucougars1.png
+NAIA,St. Ambrose,Fighting Bees,https://pbs.twimg.com/profile_images/1162429609037762561/MllWDsU8_400x400.jpg
+NAIA,Trinity International,Trojans,https://pbs.twimg.com/profile_images/484002833524469760/wjgE3RVg_400x400.jpeg
+NAIA,Concordia (MI),Cardinals,https://pbs.twimg.com/profile_images/1093583818391502848/lUefDz90_400x400.jpg
+NAIA,Indiana Wesleyan,Wildcats,https://footballpedia.s3.amazonaws.com/logo/NAIA/Indiana_Wesleyan_Wildcats.png
+NAIA,Lindenwood (IL),Lynx,https://pbs.twimg.com/profile_images/1093183750706511872/GLIQdTbF_400x400.jpg
+NAIA,Marian (IN),Knights,https://pbs.twimg.com/profile_images/852180670419881986/iVpmNYqL_400x400.jpg
+NAIA,Missouri Baptist,Spartans,https://pbs.twimg.com/profile_images/1151871371733024768/Sl5tmFvk_400x400.png
+NAIA,Saint Francis (IN),Cougars,http://d21gd0ap5v1ndt.cloudfront.net/web05/usfin/images_web/site-logo.png
+NAIA,Siena Heights,Saints,https://i.turner.ncaa.com/sites/default/files/images/logos/schools/bgd/siena.svg
+NAIA,Taylor (IN),Trojans,https://pbs.twimg.com/profile_images/1032359400730701824/x3hlLQcc_400x400.jpg
+FCS,Southern Illinois,Salukis,https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Southern_Illinois_Salukis_logo.svg/1920px-Southern_Illinois_Salukis_logo.svg.png
+FCS,Illinois State,Redbirds,https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/Illinois_State_Athletics_logo.svg/800px-Illinois_State_Athletics_logo.svg.png
+FCS,Indiana State,Sycamores,https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/Indiana_State_Sycamores_logo.svg/1280px-Indiana_State_Sycamores_logo.svg.png
+FCS,Missouri State,Bears,https://upload.wikimedia.org/wikipedia/en/thumb/4/4e/Missouri_State_Athletics_logo.svg/1024px-Missouri_State_Athletics_logo.svg.png
+FCS,North Dakota State,Bison,https://upload.wikimedia.org/wikipedia/en/thumb/7/74/North_Dakota_State_Bison_logo.svg/1920px-North_Dakota_State_Bison_logo.svg.png
+FCS,South Dakota,Coyotes,https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/South_Dakota_Coyotes_wordmark.svg/800px-South_Dakota_Coyotes_wordmark.svg.png
+FCS,South Dakota State,Jackrabbits,https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/South_Dakota_State_University_logo.svg/1024px-South_Dakota_State_University_logo.svg.png
+FCS,Western Illinois,Leathernecks,https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Western_Illinois_Leathernecks_wordmark.svg/1024px-Western_Illinois_Leathernecks_wordmark.svg.png
+FCS,Youngstown State,Penguins,https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Youngstown_State_Penguins_logo.svg/1024px-Youngstown_State_Penguins_logo.svg.png
+FBS,Air Force,Falcons,https://footballpedia.s3.amazonaws.com/logo/Division+1/Air_Force_Falcons.png
+FBS,Boise State,Broncos,https://footballpedia.s3.amazonaws.com/logo/Division+1/Boise_State_Broncos.png
+FBS,Colorado State,Rams,https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Colorado_State_Rams_logo.svg/1024px-Colorado_State_Rams_logo.svg.png
+FBS,Fresno State,Bulldogs,https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/Fresno_State_Bulldogs_logo.svg/1280px-Fresno_State_Bulldogs_logo.svg.png
+FBS,Hawaii,Rainbow Warriors,https://s3.amazonaws.com/footballpedia/logo/Division+1/Hawaii_Warriors.png
+FBS,Nevada,Wolf Pack,https://footballpedia.s3.amazonaws.com/logo/Division+1/Nevada_Wolf_Pack.png
+FBS,Nevada-Las Vegas,Rebels,https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/UNLV_Rebels_logo.svg/800px-UNLV_Rebels_logo.svg.png
+FBS,New Mexico,Lobos,https://footballpedia.s3.amazonaws.com/logo/Division+1/New_Mexico_Lobos.png
+FBS,San Diego State,Aztecs,https://s3.amazonaws.com/footballpedia/logo/Division+1/San_Diego_State_Aztecs.png
+FBS,San Jose State,Spartans,https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/San_Jose_State_Spartans_logo.svg/1024px-San_Jose_State_Spartans_logo.svg.png
+FBS,Utah State,Aggies,https://footballpedia.s3.amazonaws.com/logo/Division+1/Utah_State_Aggies.png
+FBS,Wyoming,Cowboys,https://footballpedia.s3.amazonaws.com/logo/Division+1/Wyoming_Cowboys.png
+D3,Beloit,Buccaneers,https://pbs.twimg.com/profile_images/900192006156279810/ZIHNTUMm_400x400.jpg
+D3,Chicago,Maroons,https://footballpedia.s3.amazonaws.com/logo/Division+3/Chicago_Maroons.png
+D3,Cornell College,Rams,https://pbs.twimg.com/profile_images/875951948683505667/Xr4Zz30s_400x400.jpg
+D3,Grinnell,Pioneers,https://footballpedia.s3.amazonaws.com/logo/Division+3/Grinnell_Pioneers.jpg
+D3,Illinois College,Blueboys,https://pbs.twimg.com/profile_images/1134081740966977543/gZ5NqPQz_400x400.png
+D3,Knox,Prairie Fire,https://footballpedia.s3.amazonaws.com/logo/Division+3/Knox_Prairie_Fire.jpg
+D3,Lake Forest,Foresters,https://footballpedia.s3.amazonaws.com/logo/Division+3/Lake_Forest_Foresters.png
+D3,Lawrence,Vikings,https://footballpedia.s3.amazonaws.com/logo/Division+3/Lawrence_Vikings.jpg
+D3,Macalester,Scots,https://footballpedia.s3.amazonaws.com/logo/Division+3/Macalester_Scots.png
+D3,Monmouth (IL),Fighting Scots,https://pbs.twimg.com/profile_images/893514736557375488/kRXFvdMo_400x400.jpg
+D3,Ripon,Red Hawks,https://pbs.twimg.com/profile_images/1142505167885127680/HNZ2sw-j_400x400.png
+D3,St. Norbert,Green Knights,https://footballpedia.s3.amazonaws.com/logo/Division+3/St._Norbert_Green_Knights.jpg
+D3,Aurora,Spartans,https://footballpedia.s3.amazonaws.com/logo/Division+3/Aurora_Spartans.png
+D3,Benedictine (IL),Eagles,https://pbs.twimg.com/profile_images/901166461804269569/9zuAN_UE_400x400.jpg
+D3,Concordia (WI),Falcons,https://pbs.twimg.com/profile_images/1128421323439525888/e0jIQYF6_400x400.png
+D3,Concordia Chicago,Cougars,https://pbs.twimg.com/profile_images/1048351752268009472/mhpaPu9J_400x400.jpg
+D3,Eureka,Red Devils,https://footballpedia.s3.amazonaws.com/logo/Division+3/Eureka_Red_Devils.png
+D3,Lakeland,Muskies,https://footballpedia.s3.amazonaws.com/logo/Division+3/Lakeland_Muskies.png
+D3,Rockford,Regents,https://footballpedia.s3.amazonaws.com/logo/Division+3/Rockford_Regents.png
+D3,Wisconsin Lutheran,Warriors,https://footballpedia.s3.amazonaws.com/logo/Division+3/Wisconsin_Lutheran_Warriors.jpg
+D3,Allegheny,Gators,https://pbs.twimg.com/profile_images/877893260915683329/7-ycTX_v_400x400.jpg
+D3,Denison,Big Red,https://footballpedia.s3.amazonaws.com/logo/Division+3/Denison_Big_Red.png
+D3,DePauw,Tigers,https://footballpedia.s3.amazonaws.com/logo/Division+3/DePauw_Tigers.png
+D3,Hiram,Terriers,https://cdn.prestosports.com/action/cdn/logos/rpi/281/mbkb.png
+D3,Kenyon,Lords,https://footballpedia.s3.amazonaws.com/logo/Division+3/Kenyon_Lords.png
+D3,Oberlin,Yeomen,https://footballpedia.s3.amazonaws.com/logo/Division+3/Oberlin_Yeomen.jpg
+D3,Ohio Wesleyan,Battling Bishops,https://pbs.twimg.com/profile_images/1180199324/BishopHead_400x400.png
+D3,Wabash,Little Giants,https://footballpedia.s3.amazonaws.com/logo/Division+3/Wabash_Little_Giants.jpg
+D3,Wittenberg,Tigers,https://footballpedia.s3.amazonaws.com/logo/Division+3/Wittenberg_Tigers.png
+D3,Wooster,Fighting Scots,https://footballpedia.s3.amazonaws.com/logo/Division+3/Wooster_Fighting_Scots.png
+D2,American International,Yellow Jackets,https://footballpedia.s3.amazonaws.com/logo/Division+2/American_International_Yellow_Jackets.png
+D2,Assumption,Greyhounds,https://pbs.twimg.com/profile_images/1146773904352002048/I98bjBHd_400x400.jpg
+D2,Bentley,Falcons,https://footballpedia.s3.amazonaws.com/logo/Division+2/Bentley_Falcons.png
+D2,LIU Post,Pioneers,https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/LIU_Post_Pioneers_logo.svg/250px-LIU_Post_Pioneers_logo.svg.png
+D2,Merrimack,Warriors,https://footballpedia.s3.amazonaws.com/logo/Division+2/Merrimack_Warriors.png
+D2,New Haven,Chargers,https://pbs.twimg.com/profile_images/805883221275643907/vWqUarKE_400x400.jpg
+D2,Pace,Setters,https://footballpedia.s3.amazonaws.com/logo/Division+2/Pace_Setters.png
+D2,Saint Anselm,Hawks,https://pbs.twimg.com/profile_images/998885574349017090/LMQ-5XA0_400x400.jpg
+D2,Southern Connecticut,Fighting Owls,https://footballpedia.s3.amazonaws.com/logo/Division+2/Southern_Connecticut_Fighting_Owls.png
+D2,Stonehill,Skyhawks,https://footballpedia.s3.amazonaws.com/logo/Division+2/Stonehill_Skyhawks.png
+FCS,Bryant,Bulldogs,https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Bryant_Bulldogs_logo.svg/1280px-Bryant_Bulldogs_logo.svg.png
+FCS,Central Connecticut,Blue Devils,https://upload.wikimedia.org/wikipedia/en/thumb/9/90/Central_Connecticut_Blue_Devils_logo.svg/1024px-Central_Connecticut_Blue_Devils_logo.svg.png
+FCS,Duquesne,Dukes,https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Duquesne_Dukes_logo.svg/800px-Duquesne_Dukes_logo.svg.png
+FCS,Robert Morris,Colonials,https://upload.wikimedia.org/wikipedia/en/thumb/a/af/Robert_Morris_Colonials_logo.svg/800px-Robert_Morris_Colonials_logo.svg.png
+FCS,Sacred Heart,Pioneers,https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Sacred_Heart_Pioneers_logo.svg/1024px-Sacred_Heart_Pioneers_logo.svg.png
+FCS,Saint Francis (PA),Red Flash,https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Saint_Francis_Red_Flash_logo.svg/1024px-Saint_Francis_Red_Flash_logo.svg.png
+FCS,Wagner,Seahawks,https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Wagner_Seahawks_logo.svg/1920px-Wagner_Seahawks_logo.svg.png
+D3,Amherst,Mammoths,https://footballpedia.s3.amazonaws.com/logo/Division+3/Amherst_Mammoths.png
+D3,Bates,Bobcats,https://footballpedia.s3.amazonaws.com/logo/Division+3/Bates_Bobcats.jpg
+D3,Bowdoin,Polar Bears,https://footballpedia.s3.amazonaws.com/logo/Division+3/Bowdoin_Polar_Bears.jpg
+D3,Colby,White Mules,https://footballpedia.s3.amazonaws.com/logo/Division+3/Colby_White_Mules.jpg
+D3,Hamilton,Continentals,https://footballpedia.s3.amazonaws.com/logo/Division+3/Hamilton_Continentals.png
+D3,Middlebury,Panthers,https://footballpedia.s3.amazonaws.com/logo/Division+3/Middlebury_Panthers.png
+D3,Trinity (CT),Bantams,https://s3-us-west-2.amazonaws.com/scorestream-team-profile-pictures/274983/20190414222823_771_mascot300.png
+D3,Tufts,Jumbos,https://pbs.twimg.com/profile_images/736687618793046016/qrPZvFx4_400x400.jpg
+D3,Wesleyan (CT),Cardinals,https://s.hdnux.com/photos/01/05/20/31/18155083/3/480x480.jpg
+D3,Williams,Ephs,https://pbs.twimg.com/profile_images/1068168292936949761/kgiYPJAf_400x400.jpg
+D3,Catholic,Cardinals,https://footballpedia.s3.amazonaws.com/logo/Division+3/Catholic_Cardinals.jpg
+D3,Coast Guard,Bears,https://footballpedia.s3.amazonaws.com/logo/Division+3/Coast_Guard_Bears.jpg
+D3,Maine Maritime,Mariners,https://footballpedia.s3.amazonaws.com/logo/Division+3/Maine_Maritime_Mariners.jpg
+D3,Merchant Marine,Mariners,https://footballpedia.s3.amazonaws.com/logo/Division+3/Merchant_Marine_Mariners.png
+D3,MIT,Engineers,https://footballpedia.s3.amazonaws.com/logo/Division+3/MIT_Engineers.png
+D3,Norwich,Cadets,https://pbs.twimg.com/profile_images/461176974392586240/hMO6vOrg_400x400.jpeg
+D3,Springfield College,Pride,https://pbs.twimg.com/profile_images/643083989847306240/QnWF9fk0_400x400.jpg
+D3,WPI,Engineers,https://pbs.twimg.com/profile_images/912680022716141568/CMxu3qjG_400x400.jpg
+D3,Christopher Newport,Captains,https://footballpedia.s3.amazonaws.com/logo/Division+3/Christopher_Newport_Captains.png
+D3,Frostburg State,Bobcats,https://footballpedia.s3.amazonaws.com/logo/Division+3/Frostburg_State_Bobcats.jpg
+D3,Kean,Cougars,https://footballpedia.s3.amazonaws.com/logo/Division+3/Kean_Cougars.jpg
+D3,Monclair State,Red Hawks,https://pbs.twimg.com/profile_images/1112766103967723522/WdybBwyp_400x400.jpg
+D3,Rowan,Profs,https://footballpedia.s3.amazonaws.com/logo/Division+3/Rowan_Profs.png
+D3,Salisbury,Seagulls,https://footballpedia.s3.amazonaws.com/logo/Division+3/Salisbury_Seagulls.jpg
+D3,Southern Virginia,Knights,https://footballpedia.s3.amazonaws.com/logo/Division+3/Southern_Virginia_Knights.jpg
+D3,TCNJ,Lions,https://pbs.twimg.com/profile_images/891164641551941632/YMKkIwVC_400x400.jpg
+D3,Wesley,Wolverines,http://www.mileswashburn.com/wp-content/uploads/2012/07/ch4rjs5gfhv4o7xz.jpg
+D3,William Paterson,Pioneers,https://footballpedia.s3.amazonaws.com/logo/Division+3/William_Paterson_Pioneers.jpg
+NAIA,Allen,Yellow Jackets,http://d21gd0ap5v1ndt.cloudfront.net/web03/allenu/images_web/headerLogo.png
+NAIA,Lawrence Tech,Blue Devils,https://footballpedia.s3.amazonaws.com/logo/NAIA/Lawrence_Tech_Blue_Devils.png
+NAIA,Dakota State,Trojans,https://footballpedia.s3.amazonaws.com/logo/NAIA/Dakota_State_Trojans.png
+NAIA,Dickinson State,Blue Hawks,https://pbs.twimg.com/profile_images/928066195596763137/3A8e7Utw_400x400.jpg
+NAIA,Mayville State,Comets,https://pbs.twimg.com/profile_images/664817128457940992/DXUS1m7b_400x400.jpg
+NAIA,Presentation,Saints,https://footballpedia.s3.amazonaws.com/logo/NAIA/Presentation_Saints.jpg
+NAIA,Valley City State,Vikings,https://footballpedia.s3.amazonaws.com/logo/NAIA/Valley_City_State_Vikings.jpg
+NAIA,Waldorf,Warriors,https://pbs.twimg.com/profile_images/966757592084111360/exOCWwxD_400x400.jpg
+D2,Augustana (SD),Vikings,https://pbs.twimg.com/profile_images/879739859505524737/s4urf2Dd_400x400.jpg
+D2,Bemidji State,Beavers,https://footballpedia.s3.amazonaws.com/logo/Division+2/Bemidji_State_Beavers.png
+D2,Concordia (MN),Golden Bears,https://pbs.twimg.com/profile_images/976088632556535808/NJ2uBd4K_400x400.jpg
+D2,Mary,Marauders,https://footballpedia.s3.amazonaws.com/logo/Division+2/Mary_Marauders.png
+D2,Minnesota Duluth,Bulldogs,https://pbs.twimg.com/profile_images/1118516388170219522/n9B1jKl5_400x400.png
+D2,Minnesota State Mankato,Mavericks,https://pbs.twimg.com/profile_images/1067160097640595458/xA1s2Gom_400x400.jpg
+D2,Minnesota-Crookston,Eagles,https://pbs.twimg.com/profile_images/881909174665232384/RnVeR0nZ_400x400.jpg
+D2,Minot State,Beavers,https://pbs.twimg.com/profile_images/928838523016433664/bPub-jVS_400x400.jpg
+D2,Moorhead State,Dragons,https://pbs.twimg.com/profile_images/1108121089165660160/-ajxzBLz_400x400.png
+D2,Northern State,Wolves,https://footballpedia.s3.amazonaws.com/logo/Division+2/Northern_State_Wolves.png
+D2,Sioux Falls,Cougars,https://footballpedia.s3.amazonaws.com/logo/Division+2/Sioux_Falls_Cougars.png
+D2,Southwest Minnesota State,Mustangs,https://pbs.twimg.com/profile_images/960981088922406912/R7AhqP3X_400x400.jpg
+D2,St. Cloud State,Huskies,https://footballpedia.s3.amazonaws.com/logo/Division+2/St._Cloud_State_Huskies.png
+D2,Upper Iowa,Peacocks,https://pbs.twimg.com/profile_images/1118191410111553536/bCzfj9ep_400x400.jpg
+D2,Wayne State (NE),Wildcats,https://pbs.twimg.com/profile_images/1491905106/Athletics_Profile_400x400.png
+D2,Winona State,Warriors,https://footballpedia.s3.amazonaws.com/logo/Division+2/Winona_State_Warriors.png
+D3,George Fox,Bruins,https://footballpedia.s3.amazonaws.com/logo/Division+3/George_Fox_Bruins.png
+D3,Lewis & Clark,Pioneers,https://pbs.twimg.com/profile_images/1047500326402551809/b90f5JQm_400x400.jpg
+D3,Linfield,Wildcats,https://footballpedia.s3.amazonaws.com/logo/Division+3/Linfield_Wildcats.png
+D3,Pacific (OR),Boxers,https://pbs.twimg.com/profile_images/916045269115953152/n1ygLlLx_400x400.jpg
+D3,Pacific Lutheran,Lutes,https://pbs.twimg.com/profile_images/1040446992151769088/vZ1eY0IN_400x400.jpg
+D3,Puget Sound,Loggers,https://footballpedia.s3.amazonaws.com/logo/Division+3/Puget_Sound_Loggers.jpg
+D3,Whitworth,Pirates,https://footballpedia.s3.amazonaws.com/logo/Division+3/Whitworth_Pirates.png
+D3,Willamette,Bearcats,https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Willamette_Bearcats_logo.svg/400px-Willamette_Bearcats_logo.svg.png
+D3,Baldwin-Wallace,Yellow Jackets,https://upload.wikimedia.org/wikipedia/en/3/3f/BWathleticsLOGO.gif
+D3,Capital,Crusaders,https://footballpedia.s3.amazonaws.com/logo/Division+3/Capital_Crusaders.jpg
+D3,Heidelberg,Student Princes,https://pbs.twimg.com/profile_images/378800000346824142/b39ccc141af8689de039b959cd7ed931_400x400.jpeg
+D3,John Carroll,Blue Streaks,https://s3.amazonaws.com/footballpedia/logo/Division+3/John_Carroll_Blue_Streaks.png
+D3,Marietta,Pioneers,https://footballpedia.s3.amazonaws.com/logo/Division+3/Marietta_Pioneers.png
+D3,Mount Union,Purple Raiders,https://footballpedia.s3.amazonaws.com/logo/Division+3/Mount_Union_Purple_Raiders.jpg
+D3,Muskingum,Fighting Muskies,https://footballpedia.s3.amazonaws.com/logo/Division+3/Muskingum_Fighting_Muskies.jpg
+D3,Ohio Northern,Polar Bears,https://footballpedia.s3.amazonaws.com/logo/Division+3/Ohio_Northern_Polar_Bears.png
+D3,Otterbein,Cardinals,https://footballpedia.s3.amazonaws.com/logo/Division+3/Otterbein_Cardinals.png
+D3,Wilmington (OH),Quakers,https://pbs.twimg.com/profile_images/905429767884865536/mM6lWxh__400x400.jpg
+D3,Bridgewater (VA),Eagles,https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Eaglehd.jpg/200px-Eaglehd.jpg
+D3,Emory & Henry,Wasps,https://pbs.twimg.com/profile_images/889868462964842496/KyN9ChM0_400x400.jpg
+D3,Ferrum,Panthers,https://footballpedia.s3.amazonaws.com/logo/Division+3/Ferrum_Panthers.jpg
+D3,Guilford,Quakers,https://pbs.twimg.com/profile_images/393060206/2008-09_Guilford_College_Quakers_400x400.jpg
+D3,Hampden-Sydney,Tigers,https://pbs.twimg.com/profile_images/1098593219456188417/2izb5jzG_400x400.jpg
+D3,Randolph-Macon,Yellow Jackets,https://pbs.twimg.com/profile_images/952952159108255748/Zv_5bR_f_400x400.jpg
+D3,Shenandoah,Hornets,https://footballpedia.s3.amazonaws.com/logo/Division+3/Shenandoah_Hornets.jpg
+D3,Washington & Lee,Generals,https://upload.wikimedia.org/wikipedia/en/a/a8/W%26L_Generals.png
+FCS,Austin Peay,Governors,https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Austin_Peay_Athletics_logo.svg/400px-Austin_Peay_Athletics_logo.svg.png
+FCS,Eastern Illinois,Panthers,https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Eastern_Illinois_Panthers_logo.svg/1024px-Eastern_Illinois_Panthers_logo.svg.png
+FCS,Eastern Kentucky,Colonels,https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Eastern_Kentucky_Colonels_logo.svg/1024px-Eastern_Kentucky_Colonels_logo.svg.png
+FCS,Jacksonville State,Gamecocks,https://upload.wikimedia.org/wikipedia/en/thumb/2/20/Jacksonville_State_Gamecocks_logo.svg/1920px-Jacksonville_State_Gamecocks_logo.svg.png
+FCS,Murray State,Racers,https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/Murray_State_Racers_logo.svg/1024px-Murray_State_Racers_logo.svg.png
+FCS,Southeast Missouri State,Redhawks,https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Southeast_Missouri_State_Redhawks_logo.svg/1280px-Southeast_Missouri_State_Redhawks_logo.svg.png
+FCS,Tennessee State,Tigers,https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Tennessee_State_Tigers_wordmark.svg/1024px-Tennessee_State_Tigers_wordmark.svg.png
+FCS,Tennessee Tech,Golden Eagles,https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/Tennessee_Tech_Golden_Eagles_logo.svg/1280px-Tennessee_Tech_Golden_Eagles_logo.svg.png
+FCS,Tennessee-Martin,Skyhawks,https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/UT_Martin_Skyhawks_logo.svg/1280px-UT_Martin_Skyhawks_logo.svg.png
+D3,Bethany (WV),Bison,https://pbs.twimg.com/profile_images/793488352934854656/91Dwam1m_400x400.jpg
+D3,Carnegie Mellon,Tartans,https://footballpedia.s3.amazonaws.com/logo/Division+3/Carnegie_Mellon_Tartans.jpg
+D3,CWRU,Spartans,https://pbs.twimg.com/profile_images/463765672707641344/UwUwAk3a_400x400.jpeg
+D3,Geneva,Golden Tornadoes,https://footballpedia.s3.amazonaws.com/logo/Division+3/Geneva_Golden_Tornadoes.jpg
+D3,Grove City,Wolverines,https://pbs.twimg.com/profile_images/757961005167149056/Qk6KE7Xy_400x400.jpg
+D3,Saint Vincent's (PA),Bearcats,https://pbs.twimg.com/profile_images/590261183405551616/Am2bCiPL_400x400.jpg
+D3,Thiel,Tomcats,https://footballpedia.s3.amazonaws.com/logo/Division+3/Thiel_Tomcats.png
+D3,Washington and Jefferson,Presidents,https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/W%26J_Athletics_wordmark.svg/1024px-W%26J_Athletics_wordmark.svg.png
+D3,Waynesburg,Yellow Jackets,https://pbs.twimg.com/profile_images/339969310/W_color_logo_400x400.jpg
+D3,Westminster (PA),Titans,https://pbs.twimg.com/profile_images/1019023940243640321/tTkd9cwN_400x400.jpg
+FBS,Arizona,Wildcats,https://s3.amazonaws.com/footballpedia/logo/Division+1/Arizona_Wildcats.png
+FBS,Arizona State,Sun Devils,https://footballpedia.s3.amazonaws.com/logo/Division+1/Arizona_State_Sun_Devils.png
+FBS,California,Golden Bears,https://footballpedia.s3.amazonaws.com/logo/Division+1/California_Golden_Bears.png
+FBS,Colorado,Buffaloes,https://footballpedia.s3.amazonaws.com/logo/Division+1/Colorado_Buffaloes.png
+FBS,Oregon,Ducks,https://footballpedia.s3.amazonaws.com/logo/Division+1/Oregon_Ducks.png
+FBS,Oregon State,Beavers,https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Oregon_State_Beavers_logo.svg/1920px-Oregon_State_Beavers_logo.svg.png
+FBS,Stanford,Cardinal,https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Stanford_Cardinal_logo.svg/800px-Stanford_Cardinal_logo.svg.png
+FBS,UCLA,Bruins,https://footballpedia.s3.amazonaws.com/logo/Division+1/UCLA_Bruins.png
+FBS,USC,Trojans,https://s3.amazonaws.com/footballpedia/logo/Division+1/USC_Trojans.png
+FBS,Utah,Utes,https://footballpedia.s3.amazonaws.com/logo/Division+1/Utah_Utes.png
+FBS,Washington,Huskies,https://footballpedia.s3.amazonaws.com/logo/Division+1/Washington_Huskies.png
+FBS,Washington State,Cougars,https://footballpedia.s3.amazonaws.com/logo/Division+1/Washington_State_Cougars.png
+FCS,Bucknell,Bison,https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/Bucknell_Bison_logo.svg/1024px-Bucknell_Bison_logo.svg.png
+FCS,Colgate,Raiders,https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Colgate_Raiders_logo.svg/800px-Colgate_Raiders_logo.svg.png
+FCS,Fordham,Rams,https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Fordham_Rams_logo.svg/1024px-Fordham_Rams_logo.svg.png
+FCS,Georgetown,Hoyas,https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Georgetown_Hoyas_logo.svg/1024px-Georgetown_Hoyas_logo.svg.png
+FCS,Holy Cross,Crusaders,https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Holy_Cross_Athletics_logo.svg/1024px-Holy_Cross_Athletics_logo.svg.png
+FCS,Lafayette,Leopards,https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Lafayette_Leopards_logo.svg/1920px-Lafayette_Leopards_logo.svg.png
+FCS,Lehigh,Mountain Hawks,https://upload.wikimedia.org/wikipedia/en/thumb/6/65/LehighMountainHawks.svg/1024px-LehighMountainHawks.svg.png
+FCS,Butler,Bulldogs,https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Butler_Bulldogs_logo.svg/1024px-Butler_Bulldogs_logo.svg.png
+FCS,Davidson,Wildcats,https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Davdson_Wildcats_wordmark.svg/1024px-Davdson_Wildcats_wordmark.svg.png
+FCS,Dayton,Flyers,https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Dayton_Flyers_logo.svg/1024px-Dayton_Flyers_logo.svg.png
+FCS,Drake,Bulldogs,https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Drake_Bulldogs_%22D%22_logo.svg/1024px-Drake_Bulldogs_%22D%22_logo.svg.png
+FCS,Jacksonville,Dolphins,https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Jacksonville_Dolphins_logo_2018.svg/1920px-Jacksonville_Dolphins_logo_2018.svg.png
+FCS,Marist,Red Foxes,https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Marist_%22M%22_logo.png/1024px-Marist_%22M%22_logo.png
+FCS,Morehead State,Eagles,https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Morehead_State_Eagles_logo.svg/1024px-Morehead_State_Eagles_logo.svg.png
+FCS,San Diego,Toreros,https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/San_Diego_Toreros_logo.svg/1024px-San_Diego_Toreros_logo.svg.png
+FCS,Stetson,Hatters,https://upload.wikimedia.org/wikipedia/en/1/17/Stetson_Hatters_logo_%282018%29.png
+FCS,Valparaiso,Crusaders,https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/Valparaiso_Crusaders_logo.svg/1024px-Valparaiso_Crusaders_logo.svg.png
+D2,Bloomsburg,Huskies,https://pbs.twimg.com/profile_images/826053949010632704/BT12S2AZ_400x400.jpg
+D2,California (PA),Vulcans,https://pbs.twimg.com/profile_images/1028284816431702016/V83eWp3N_400x400.jpg
+D2,Clarion,Golden Eagles,https://footballpedia.s3.amazonaws.com/logo/Division+2/Clarion_Golden_Eagles.png
+D2,East Stroudsburg State,Warriors,https://pbs.twimg.com/profile_images/826151647776751616/XEPJfBoh_400x400.jpg
+D2,Edinboro,Fighting Scots,https://pbs.twimg.com/profile_images/1149374949427175426/e_cfx6rp_400x400.jpg
+D2,Gannon,Golden Knights,https://pbs.twimg.com/profile_images/1136308299098279936/LiTYPSCR_400x400.png
+D2,Indiana (PA),Crimson Hawks,https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/IUPcrimson-hawk.png/300px-IUPcrimson-hawk.png
+D2,Kutztown,Golden Bears,https://footballpedia.s3.amazonaws.com/logo/Division+2/Kutztown_Golden_Bears.png
+D2,Lock Haven,Bald Eagles,https://footballpedia.s3.amazonaws.com/logo/Division+2/Lock_Haven_Bald_Eagles.png
+D2,Mercyhurst,Lakers,https://footballpedia.s3.amazonaws.com/logo/Division+2/Mercyhurst_Lakers.png
+D2,Millersville,Marauders,https://footballpedia.s3.amazonaws.com/logo/Division+2/Millersville_Marauders.jpg
+D2,Seton Hill,Griffins,https://footballpedia.s3.amazonaws.com/logo/Division+2/Seton_Hill_Griffins.png
+D2,Shippensburg,Red Raiders,https://shipraiders.com/images/logos/site.png
+D2,Slippery Rock,The Rock,https://pbs.twimg.com/profile_images/971869657648058370/T5iGb3Au_400x400.jpg
+D2,West Chester,Golden Rams,https://footballpedia.s3.amazonaws.com/logo/Division+2/West_Chester_Golden_Rams.png
+D2,Adams State,Grizzlies,https://footballpedia.s3.amazonaws.com/logo/Division+2/Adams_State_Grizzlies.png
+D2,Black Hills State,Yellow Jackets,https://pbs.twimg.com/profile_images/1121157267758428163/Ufjkrqx3_400x400.jpg
+D2,Chadron State,Eagles,https://pbs.twimg.com/profile_images/1121157267758428163/Ufjkrqx3_400x400.jpg
+D2,Colorado Mesa,Mavericks,https://footballpedia.s3.amazonaws.com/logo/Division+2/Colorado_Mesa_Mavericks.png
+D2,Colorado Mines,Orediggers,https://footballpedia.s3.amazonaws.com/logo/Division+2/Colorado_Mines_Orediggers.png
+D2,Colorado State-Pueblo,ThunderWolves,https://pbs.twimg.com/profile_images/1027772455765532674/9sSSVqTH_400x400.jpg
+D2,Dixie State,Trailblazers,https://footballpedia.s3.amazonaws.com/logo/Division+2/Dixie_State_Trailblazers.png
+D2,Fort Lewis,Skyhawks,https://pbs.twimg.com/profile_images/2464347469/sh_icon_c_for_social_media_400x400.jpg
+D2,New Mexico Highlands,Cowboys,https://footballpedia.s3.amazonaws.com/logo/Division+2/New_Mexico_Highlands_Cowboys.png
+D2,South Dakota Mines,Hardrockers,https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/South_Dakota_Mines_Hardrockers_logo.svg/200px-South_Dakota_Mines_Hardrockers_logo.svg.png
+D3,Austin College,Kangaroos,https://pbs.twimg.com/profile_images/901574671736430592/91CN8FxU_400x400.jpg
+D3,Berry,Vikings,https://footballpedia.s3.amazonaws.com/logo/Division+3/Berry_Vikings.jpg
+D3,Birmingham-Southern,Panthers,https://footballpedia.s3.amazonaws.com/logo/Division+3/Birmingham-Southern_Panthers.png
+D3,Centre,Colonels,https://footballpedia.s3.amazonaws.com/logo/Division+3/Centre_Colonels.png
+D3,Hendrix,Warriors,https://footballpedia.s3.amazonaws.com/logo/Division+3/Hendrix_Warriors.png
+D3,Millsaps,Majors,https://footballpedia.s3.amazonaws.com/logo/Division+3/Millsaps_Majors.png
+D3,Rhodes,Lynx,https://footballpedia.s3.amazonaws.com/logo/Division+3/Rhodes_Lynx.png
+D3,Sewanee,Tigers,https://footballpedia.s3.amazonaws.com/logo/Division+3/Sewanee_Tigers.png
+D3,Trinity (TX),Tigers,https://s3.amazonaws.com/footballpedia/logo/Division+3/Trinity_Tigers.png
+D2,Carson-Newman,Eagles,https://bloximages.chicago2.vip.townnews.com/newportplaintalk.com/content/tncms/assets/v3/editorial/5/cd/5cd0cc4a-2f72-5cb1-8edb-b1255b607e08/5ab0cd9749d27.image.png?resize=400%2C267
+D2,Catawba,Indians,https://footballpedia.s3.amazonaws.com/logo/Division+2/Catawba_Indians.jpg
+D2,Lenoir-Rhyne,Bears,https://pbs.twimg.com/profile_images/1005529660107755521/rV4SBMHU_400x400.jpg
+D2,Limestone,Saints,https://footballpedia.s3.amazonaws.com/logo/Division+2/Limestone_Saints.png
+D2,Mars Hill,Lions,https://pbs.twimg.com/profile_images/1103318703821721600/89OMWfkC_400x400.jpg
+D2,Newberry,Wolves,https://footballpedia.s3.amazonaws.com/logo/Division+2/Newberry_Wolves.png
+D2,Tusculum,Pioneers,https://pbs.twimg.com/profile_images/1001840110755819520/HS9FVNsK_400x400.jpg
+D2,Wingate,Bulldogs,https://footballpedia.s3.amazonaws.com/logo/Division+2/Wingate_Bulldogs.png
+D3,California Lutheran,Kingsmen,https://pbs.twimg.com/profile_images/898306307391868928/7W5FwBzn_400x400.jpg
+D3,Chapman,Panthers,https://www.pngfind.com/pngs/m/324-3241605_chapman-panthers-logo-2-by-angie-chapman-university.png
+D3,Claremont Mudd Scripps,Stags,https://pbs.twimg.com/profile_images/1058488820314697728/On6PY1jr_400x400.jpg
+D3,La Verne,Leopards,https://footballpedia.s3.amazonaws.com/logo/Division+3/La_Verne_Leopards.jpg
+D3,Occidental,Tigers,https://footballpedia.s3.amazonaws.com/logo/Division+3/Occidental_Tigers.jpg
+D3,Pomona-Pitzer,Sagehens,https://pbs.twimg.com/profile_images/619227198105518080/ZfHnj1Dl_400x400.jpg
+D3,Redlands,Bulldogs,https://footballpedia.s3.amazonaws.com/logo/Division+3/Redlands_Bulldogs.jpg
+D3,Whittier,Poets,https://footballpedia.s3.amazonaws.com/logo/Division+3/Whittier_Poets.jpg
+FBS,Alabama,Crimson Tide,https://footballpedia.s3.amazonaws.com/logo/Division+1/Alabama_Crimson_Tide.png
+FBS,Arkansas,Razorbacks,https://footballpedia.s3.amazonaws.com/logo/Division+1/Arkansas_Razorbacks.png
+FBS,Auburn,Tigers,https://footballpedia.s3.amazonaws.com/logo/Division+1/Auburn_Tigers.png
+FBS,Florida,Gators,https://footballpedia.s3.amazonaws.com/logo/Division+1/Florida_Gators.png
+FBS,Georgia,Bulldogs,https://footballpedia.s3.amazonaws.com/logo/Division+1/Georgia_Bulldogs.png
+FBS,Kentucky,Wildcats,https://footballpedia.s3.amazonaws.com/logo/Division+1/Kentucky_Wildcats.png
+FBS,LSU,Fighting Tigers,https://s3.amazonaws.com/footballpedia/logo/Division+1/LSU_Tigers.png
+FBS,Mississippi,Rebels,https://footballpedia.s3.amazonaws.com/logo/Division+1/Mississippi_Rebels.png
+FBS,Mississippi State,Bulldogs,https://footballpedia.s3.amazonaws.com/logo/Division+1/Mississippi_State_Bulldogs.png
+FBS,Missouri,Tigers,https://footballpedia.s3.amazonaws.com/logo/Division+1/Missouri_Tigers.png
+FBS,South Carolina,Gamecocks,https://footballpedia.s3.amazonaws.com/logo/Division+1/South_Carolina_Gamecocks.png
+FBS,Tennessee,Volunteers,https://footballpedia.s3.amazonaws.com/logo/Division+1/Tennessee_Volunteers.png
+FBS,Texas A&M,Aggies,https://s3.amazonaws.com/footballpedia/logo/Division+1/Texas_A_M_Aggies.png
+FBS,Vanderbilt,Commodores,https://footballpedia.s3.amazonaws.com/logo/Division+1/Vanderbilt_Commodores.png
+D2,Albany State,Golden Rams,https://footballpedia.s3.amazonaws.com/logo/Division+2/Albany_State_Golden_Rams.png
+D2,Benedict,Tigers,https://pbs.twimg.com/profile_images/1058171501604716544/kRm2d6YT_400x400.jpg
+D2,Central State (OH),Marauders,https://pbs.twimg.com/profile_images/738735448118415365/lDeEk8YE_400x400.jpg
+D2,Clark Atlanta,Panthers,https://footballpedia.s3.amazonaws.com/logo/Division+2/Clark_Atlanta_Panthers.jpg
+D2,Fort Valley State,Wildcats,https://footballpedia.s3.amazonaws.com/logo/Division+2/Fort_Valley_State_Wildcats.png
+D2,Kentucky State,Thorobreds,https://footballpedia.s3.amazonaws.com/logo/Division+2/Kentucky_State_Thorobreds.png
+D2,Lane,Dragons,https://pbs.twimg.com/profile_images/1147456750238482433/WvpHwl-p_400x400.jpg
+D2,Miles,Golden Bears,https://footballpedia.s3.amazonaws.com/logo/Division+2/Miles_Golden_Bears.png
+D2,Morehouse,Maroon Tigers,https://footballpedia.s3.amazonaws.com/logo/Division+2/Morehouse_Maroon_Tigers.png
+D2,Tuskegee,Golden Tigers,https://pbs.twimg.com/profile_images/378800000327970200/228568fb1babad560969df332a87f11f_400x400.jpeg
+FCS,East Tennessee State,Buccaneers,https://footballpedia.s3.amazonaws.com/logo/Division+1/East_Tennessee_State_Buccaneers.png
+FCS,Furman,Paladins,https://footballpedia.s3.amazonaws.com/logo/Division+1/Furman_Paladins.png
+FCS,Mercer,Bears,https://footballpedia.s3.amazonaws.com/logo/Division+1/Mercer_Bears.png
+FCS,Samford,Bulldogs,https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Samford_Bulldogs_logo.svg/1920px-Samford_Bulldogs_logo.svg.png
+FCS,The Citadel,Bulldogs,https://footballpedia.s3.amazonaws.com/logo/Division+1/The_Citadel_Bulldogs.png
+FCS,UT-Chattanooga,Mocs,https://footballpedia.s3.amazonaws.com/logo/Division+1/UT-Chattanooga_Mocs.png
+FCS,VMI,Keydets,https://footballpedia.s3.amazonaws.com/logo/Division+1/VMI_Keydets.png
+FCS,Western Carolina,Catamounts,https://footballpedia.s3.amazonaws.com/logo/Division+1/Western_Carolina_Catamounts.png
+FCS,Wofford,Terriers,https://footballpedia.s3.amazonaws.com/logo/Division+1/Wofford_Terriers.png
+NAIA,Arizona Christian,Firestorm,https://pbs.twimg.com/profile_images/907634199351275521/yyUqAou-_400x400.jpg
+NAIA,Langston,Lions,https://footballpedia.s3.amazonaws.com/logo/NAIA/Langston_Lions.jpg
+NAIA,Lyon,Scots,https://footballpedia.s3.amazonaws.com/logo/NAIA/Lyon_Scots.jpg
+NAIA,Oklahoma Panhandle,Aggies,https://pbs.twimg.com/profile_images/838900336249069572/MwWZf1zO_400x400.jpg
+NAIA,Ottawa (AZ),Spirit,https://pbs.twimg.com/profile_images/827548628147281920/WSFvmuMn_400x400.jpg
+NAIA,SAGU,Lions,https://footballpedia.s3.amazonaws.com/logo/NAIA/SAGU_Lions.jpg
+NAIA,Texas College,Steers,https://pbs.twimg.com/profile_images/787100835528347648/wz5YNKZH_400x400.jpg
+NAIA,Texas Wesleyan,Rams,https://joagency.com/wp-content/uploads/2019/02/CaseStudySquares_TexasWesleyanRam-Two-Color2.jpg
+NAIA,Wayland Baptist,Pioneers,https://s3-us-west-2.amazonaws.com/scorestream-team-profile-pictures/286117/20181011000917_253_mascot300.jpg
+FCS,Abilene Christian,Wildcats,https://footballpedia.s3.amazonaws.com/logo/Division+1/Abilene_Christian_Wildcats.png
+FCS,Central Arkansas,Bears,https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Central_Arkansas_Athletics_logo.svg/1024px-Central_Arkansas_Athletics_logo.svg.png
+FCS,Houston Baptist,Huskies,https://footballpedia.s3.amazonaws.com/logo/Division+1/Houston_Baptist_Huskies.png
+FCS,Incarnate Word,Cardinals,https://footballpedia.s3.amazonaws.com/logo/Division+1/Incarnate_Word_Cardinals.png
+FCS,Lamar,Cardinals,https://footballpedia.s3.amazonaws.com/logo/Division+1/Lamar_Cardinals.png
+FCS,McNeese State,Cowboys,https://footballpedia.s3.amazonaws.com/logo/Division+1/McNeese_State_Cowboys.png
+FCS,Nicholls State,Colonels,https://footballpedia.s3.amazonaws.com/logo/Division+1/Nicholls_State_Colonels.png
+FCS,Northwestern State,Demons,https://footballpedia.s3.amazonaws.com/logo/Division+1/Northwestern_State_Demons.png
+FCS,Sam Houston State,Bearkats,https://footballpedia.s3.amazonaws.com/logo/Division+1/Sam_Houston_State_Bearkats.png
+FCS,Southeastern Louisiana,Lions,https://footballpedia.s3.amazonaws.com/logo/Division+1/Southeastern_Louisiana_Lions.png
+FCS,Stephen F. Austin,Lumberjacks,https://footballpedia.s3.amazonaws.com/logo/Division+1/Stephen_F._Austin_Lumberjacks.png
+FBS,Appalachian State,Mountaineers,https://footballpedia.s3.amazonaws.com/logo/Division+1/Appalachian_State_Mountaineers.png
+FBS,Arkansas State,Red Wolves,https://footballpedia.s3.amazonaws.com/logo/Division+1/Arkansas_State_Red_Wolves.png
+FBS,Coastal Carolina,Chanticleers,https://footballpedia.s3.amazonaws.com/logo/Division+1/Coastal_Carolina_Chanticleers.png
+FBS,Georgia Southern,Eagles,https://footballpedia.s3.amazonaws.com/logo/Division+1/Georgia_Southern_Eagles.png
+FBS,Georgia State,Panthers,https://footballpedia.s3.amazonaws.com/logo/Division+1/Georgia_State_Panthers.png
+FBS,Louisiana-Lafayette,Ragin' Cajuns,https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Ragin_Cajuns_logo.svg/1920px-Ragin_Cajuns_logo.svg.png
+FBS,Louisiana-Monroe,Warhawks,https://footballpedia.s3.amazonaws.com/logo/Division+1/Louisiana-Monroe_Warhawks.png
+FBS,South Alabama,Jaguars,https://footballpedia.s3.amazonaws.com/logo/Division+1/South_Alabama_Jaguars.png
+FBS,Texas State,Bobcats,https://footballpedia.s3.amazonaws.com/logo/Division+1/Texas_State_Bobcats.png
+FBS,Troy,Trojans,https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Troy_Trojans_logo.svg/800px-Troy_Trojans_logo.svg.png
+FCS,Alabama A&M,Bulldogs,http://content.sportslogos.net/logos/30/598/thumbs/eeouzacpkg2tb9079kv6ez716.gif
+FCS,Alabama State,Hornets,https://footballpedia.s3.amazonaws.com/logo/Division+1/Alabama_State_Hornets.gif
+FCS,Alcorn State,Braves,https://footballpedia.s3.amazonaws.com/logo/Division+1/Alcorn_State_Braves.png
+FCS,Arkansas-Pine Bluff,Golden Lions,https://footballpedia.s3.amazonaws.com/logo/Division+1/Arkansas-Pine_Bluff_Golden_Lions.png
+FCS,Grambling,Tigers,https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Grambling_State_Tigers_logo.svg/1024px-Grambling_State_Tigers_logo.svg.png
+FCS,Jackson State,Tigers,https://upload.wikimedia.org/wikipedia/commons/e/ed/JacksonStateTigers.png
+FCS,Mississippi Valley State,Delta Devils,https://footballpedia.s3.amazonaws.com/logo/Division+1/Mississippi_Valley_State_Delta_Devils.png
+FCS,Prairie View A&M,Panthers,https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Prairie_View_A%26M_Panthers_logo.svg/1920px-Prairie_View_A%26M_Panthers_logo.svg.png
+FCS,Southern,Jaguars,https://footballpedia.s3.amazonaws.com/logo/Division+1/Southern_Jaguars.png
+FCS,Texas Southern,Tigers,https://footballpedia.s3.amazonaws.com/logo/Division+1/Texas_Southern_Tigers.png
+D3,Crown (MN),Storm,https://pbs.twimg.com/profile_images/1049727024011599872/KDIr5hAz_400x400.jpg
+D3,Greenville,Panthers,https://footballpedia.s3.amazonaws.com/logo/Division+3/Greenville_Panthers.png
+D3,Iowa Wesleyan,Tigers,https://footballpedia.s3.amazonaws.com/logo/Division+3/Iowa_Wesleyan_Tigers.jpg
+D3,MacMurray,Highlanders,https://footballpedia.s3.amazonaws.com/logo/Division+3/MacMurray_Highlanders.jpg
+D3,Martin Luther,Knights,https://footballpedia.s3.amazonaws.com/logo/Division+3/Martin_Luther_Knights.jpg
+D3,Minnesota-Morris,Cougars,https://footballpedia.s3.amazonaws.com/logo/Division+3/Minnesota-Morris_Cougars.png
+D3,Northwestern-St. Paul,Eagles,https://footballpedia.s3.amazonaws.com/logo/Division+3/Northwestern-St._Paul_Eagles.jpg
+D3,St. Scholastica,Saints,https://footballpedia.s3.amazonaws.com/logo/Division+3/St._Scholastica_Saints.png
+D3,Westminster (MO),Blue Jays,https://vignette.wikia.nocookie.net/baseball/images/6/6c/Westminster_MO_Blue_Jays.gif/revision/latest/scale-to-width-down/180?cb=20160228210339
+D3,Averett,Cougars,https://footballpedia.s3.amazonaws.com/logo/Division+3/Averett_Cougars.png
+D3,Brevard,Tornados,https://footballpedia.s3.amazonaws.com/logo/Division+3/Brevard_Tornados.jpg
+D3,Greensboro College,Pride,https://footballpedia.s3.amazonaws.com/logo/Division+3/Greensboro_College_Pride.jpg
+D3,Huntingdon,Hawks,https://footballpedia.s3.amazonaws.com/logo/Division+3/Huntingdon_Hawks.jpg
+D3,LaGrange,Panthers,https://footballpedia.s3.amazonaws.com/logo/Division+3/LaGrange_Panthers.png
+D3,Maryville (TN),Scots,https://pbs.twimg.com/profile_images/635115495046275072/MFC0MRcc_400x400.jpg
+D3,Methodist,Monarchs,https://footballpedia.s3.amazonaws.com/logo/Division+3/Methodist_Monarchs.png
+D3,North Carolina Wesleyan,Battling Bishops,https://footballpedia.s3.amazonaws.com/logo/Division+3/North_Carolina_Wesleyan_Battling_Bishops.png
+D3,Wisconsin-Eau Claire,Blugolds,https://footballpedia.s3.amazonaws.com/logo/Division+3/Wisconsin-Eau_Claire_Blugolds.jpg
+D3,Wisconsin-La Crosse,Eagles,https://footballpedia.s3.amazonaws.com/logo/Division+3/Wisconsin-La_Crosse_Eagles.jpg
+D3,Wisconsin-Oshkosh,Titans,https://footballpedia.s3.amazonaws.com/logo/Division+3/Wisconsin-Oshkosh_Titans.jpg
+D3,Wisconsin-Platteville,Pioneers,https://footballpedia.s3.amazonaws.com/logo/Division+3/Wisconsin-Platteville_Pioneers.jpg
+D3,Wisconsin-River Falls,Falcons,https://footballpedia.s3.amazonaws.com/logo/Division+3/Wisconsin-River_Falls_Falcons.jpg
+D3,Wisconsin-Stevens Point,Pointers,https://footballpedia.s3.amazonaws.com/logo/Division+3/Wisconsin-Stevens_Point_Pointers.jpg
+D3,Wisconsin-Stout,Blue Devils,https://footballpedia.s3.amazonaws.com/logo/Division+3/Wisconsin-Stout_Blue_Devils.jpg
+D3,Wisconsin-Whitewater,Warhawks,https://footballpedia.s3.amazonaws.com/logo/Division+3/Wisconsin-Whitewater_Warhawks.jpg
