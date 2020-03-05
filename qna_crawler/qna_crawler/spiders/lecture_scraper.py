@@ -27,7 +27,7 @@ scope = [
     "https://www.googleapis.com/auth/drive",
 ]
 
-json_file_name = "woven-arcadia-269609-d3129861cce7.json"
+json_file_name = "woven-arcadia-269609-12b95dbdd1c3.json"
 
 credentials = ServiceAccountCredentials.from_json_keyfile_name(json_file_name, scope)
 gc = gspread.authorize(credentials)
@@ -42,7 +42,7 @@ doc = gc.open_by_url(spreadsheet_url)
 ua = UserAgent()
 co = webdriver.ChromeOptions()
 co.add_argument("/Users/yoonhoonsang/Desktop/internet_lecture/qna_crawler/chromedriver")
-co.add_argument("log-level=3")
+co.add_argument("log-level=2")
 co.add_argument("headless")
 co.add_argument("user-agent={}".format(ua.random))
 co.add_argument("lang=ko_KR")
@@ -110,19 +110,26 @@ class ETOOSSpider(scrapy.Spider):
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        start_temp = self.start.split("/")
-        till_temp = self.till.split("/")
+
+        today = datetime.date.today()
+        yesterday = today - datetime.timedelta(days=1)
+        day_before_yesterday = yesterday - datetime.timedelta(days=1)
+        start_temp = str(yesterday).split('-')
+        till_temp = str(day_before_yesterday).split("-")
+
         self.start = datetime.date(
             int(start_temp[0]), int(start_temp[1]), int(start_temp[2])
         )
         self.till = datetime.date(
             int(till_temp[0]), int(till_temp[1]), int(till_temp[2])
         )
+
         self.worksheet_name = self.teacher
         self.worksheet = doc.worksheet(self.worksheet_name)
 
     def parse(self, response):
         print("---- Scraping Starts ----")
+        print("---- Scraping of {}".format(str(self.start)))
         page = 1
         date_qna_dic = defaultdict(int)
         running = True
@@ -177,10 +184,13 @@ class ETOOSSpider(scrapy.Spider):
                             int(date_value[0]), int(date_value[1]), int(date_value[2])
                         )
 
-                        if date_value <= self.start and date_value >= self.till:
+#                         if date_value <= self.start and date_value >= self.till:
+                        if date_value == self.start:
                             date_qna_dic[date_value] += 1
-                        else:
-                            print("out of date-range")
+                        elif date_value > self.start:
+                            print('out of date-range, over {}'.format(self.start))
+                        elif date_value < self.start:
+                            print("out of date-range, less {}".format(self.till))
                             running = False
                             break
 
@@ -211,7 +221,11 @@ class MegaSpider(scrapy.Spider):
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        start_temp = self.start.split("/")
+
+        today = datetime.date.today()
+        yesterday = today - datetime.timedelta(days=1)
+
+        start_temp = str(yesterday).split('-')
         till_temp = self.till.split("/")
         self.start = datetime.date(
             int(start_temp[0]), int(start_temp[1]), int(start_temp[2])
@@ -279,8 +293,10 @@ class MegaSpider(scrapy.Spider):
 
                         if date_value <= self.start and date_value >= self.till:
                             date_qna_dic[date_value] += 1
-                        else:
-                            print("out of date-range")
+                        elif date_value > self.start:
+                            print('out of date-range, over {}'.format(self.start))
+                        elif date_value < self.till:
+                            print("out of date-range, less {}".format(self.till))
                             running = False
                             break
 
@@ -310,7 +326,11 @@ class SkySpider(scrapy.Spider):
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        start_temp = self.start.split("/")
+
+        today = datetime.date.today()
+        yesterday = today - datetime.timedelta(days=1)
+
+        start_temp = str(yesterday).split('-')
         till_temp = self.till.split("/")
         self.start = datetime.date(
             int(start_temp[0]), int(start_temp[1]), int(start_temp[2])
@@ -370,10 +390,10 @@ class SkySpider(scrapy.Spider):
 
                         if date_value <= self.start and date_value >= self.till:
                             date_qna_dic[date_value] += 1
-                        #                             print(f'{date_value}:{date_qna_dic[date_value]}')
-
-                        else:
-                            print("out of date-range")
+                        elif date_value > self.start:
+                            print('out of date-range, over {}'.format(self.start))
+                        elif date_value < self.till:
+                            print("out of date-range, less {}".format(self.till))
                             running = False
                             break
 
@@ -402,7 +422,11 @@ class MiMacSpider(scrapy.Spider):
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        start_temp = self.start.split("/")
+
+        today = datetime.date.today()
+        yesterday = today - datetime.timedelta(days=1)
+
+        start_temp = str(yesterday).split('-')
         till_temp = self.till.split("/")
         self.start = datetime.date(
             int(start_temp[0]), int(start_temp[1]), int(start_temp[2])
@@ -422,52 +446,65 @@ class MiMacSpider(scrapy.Spider):
         while running:
             try:
                 co.add_argument("user-agent={}".format(ua.random))
-                self.browser = proxy_driver(ALL_PROXIES)
+                self.browser = webdriver.Chrome(chrome_options=co)
+                print(f'Current Page {page}')
                 base_url = "http://www.mimacstudy.com/tcher/studyQna/getStudyQnaList.ds?tcd=531&currPage={} ".format(
                     str(page)
                 )
 
                 self.browser.implicitly_wait(5)
                 self.browser.get(base_url)
-
                 print("Accessing {}".format(base_url))
+
+                title = WebDriverWait(self.browser, 10).until(
+                                    EC.presence_of_element_located(
+                                        (By.CSS_SELECTOR, "div.tbltype_list > table")
+                                    )
+                                )
+
                 # get the rows of table
-                rows = self.browser.find_elements_by_tag_name("tr")
-                # rows[:3] consists notices
-                rows = rows[3:]
+                tbody = self.browser.find_element_by_tag_name("tbody")
+                rows = tbody.find_elements_by_tag_name("tr")
                 # iterate through rows
 
                 for row in rows:
                     # text is list, consisted by row data
+                    row_class = row.get_attribute("class")
+                    td_list = row.find_elements_by_css_selector("*")
+                    first_td_class = td_list[0].get_attribute("class")
+
+                    if first_td_class == "noti" or row_class == "reply":
+                        continue
+
                     text = row.text.split()
                     print("row_sample: {}".format(text))
-                    if len(text) > 5:
-                        date_value = text[-2]
-                        writer = text[-1]
-                        if len(date_value) == 10:
-                            print(date_value)
-                            # date comparison
-                            # if bigger than till, smaller than start, pass
-                            date_value = date_value.split("/")
 
-                            # date_value = [2020,12,23]
-                            # date_value[0] = 2020 / date_value[1] = 12/ date_value[2] = 23
+                    date_value, writer = text[-2], text[-1]
+                    print("date_value: {}".format(date_value))
 
-                            date_value = datetime.date(
-                                int(date_value[0]),
-                                int(date_value[1]),
-                                int(date_value[2]),
-                            )
+                    if len(date_value) == 10:
+                        print(date_value)
+                        # date comparison
+                        # if bigger than till, smaller than start, pass
+                        date_value = date_value.split("/")
 
-                            if date_value <= self.start and date_value >= self.till:
-                                if writer not in ["운영자", "연구실"]:
-                                    dic[date_value] += 1
-                                    print("got it")
+                        # date_value = [2020,12,23]
+                        # date_value[0] = 2020 / date_value[1] = 12/ date_value[2] = 23
 
-                            else:
-                                print("out of date-range")
-                                running = False
-                                break
+                        date_value = datetime.date(
+                            int(date_value[0]),
+                            int(date_value[1]),
+                            int(date_value[2]),
+                        )
+
+                        if date_value <= self.start and date_value >= self.till:
+                            date_qna_dic[date_value] += 1
+                        elif date_value > self.start:
+                            print('out of date-range, over {}'.format(self.start))
+                        elif date_value < self.till:
+                            print("out of date-range, less {}".format(self.till))
+                            running = False
+                            break
 
                 page += 1
                 print("page {}".format(page))
@@ -482,5 +519,5 @@ class MiMacSpider(scrapy.Spider):
 
             item = QnaCrawlerItem()
             item["date"] = date
-            item["qna_count"] = date_qna_dic[i]
+            item["qna_count"] = date_qna_dic[date]
             yield item
