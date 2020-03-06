@@ -42,50 +42,50 @@ doc = gc.open_by_url(spreadsheet_url)
 ua = UserAgent()
 co = webdriver.ChromeOptions()
 co.add_argument("/Users/yoonhoonsang/Desktop/internet_lecture/qna_crawler/chromedriver")
-co.add_argument("log-level=2")
+co.add_argument("log-level=1")
 co.add_argument("headless")
 co.add_argument("user-agent={}".format(ua.random))
 co.add_argument("lang=ko_KR")
 
 
-def get_proxies(co=co):
-    driver = webdriver.Chrome(chrome_options=co)
-    driver.get("https://free-proxy-list.net/")
-
-    PROXIES = []
-    proxies = driver.find_elements_by_css_selector("tr[role='row']")
-    for p in proxies:
-        result = p.text.split(" ")
-        if result[-1] == "yes":
-            PROXIES.append(result[0] + ":" + result[1])
-
-    driver.close()
-    return PROXIES
-
-
-ALL_PROXIES = get_proxies()
-
-
-def proxy_driver(PROXIES, co=co):
-    prox = Proxy()
-    pxy = ""
-    if PROXIES:
-        pxy = PROXIES[-1]
-    else:
-        print("--- Proxies used up (%s)" % len(PROXIES))
-        PROXIES = get_proxies()
-
-    prox.proxy_type = ProxyType.MANUAL
-    prox.http_proxy = pxy
-    prox.ssl_proxy = pxy
-
-    capabilities = webdriver.DesiredCapabilities.CHROME
-    prox.add_to_capabilities(capabilities)
-
-    driver = webdriver.Chrome(chrome_options=co, desired_capabilities=capabilities)
-
-    return driver
-
+# def get_proxies(co=co):
+#     driver = webdriver.Chrome(chrome_options=co)
+#     driver.get("https://free-proxy-list.net/")
+#
+#     PROXIES = []
+#     proxies = driver.find_elements_by_css_selector("tr[role='row']")
+#     for p in proxies:
+#         result = p.text.split(" ")
+#         if result[-1] == "yes":
+#             PROXIES.append(result[0] + ":" + result[1])
+#
+#     driver.close()
+#     return PROXIES
+#
+#
+# ALL_PROXIES = get_proxies()
+#
+#
+# def proxy_driver(PROXIES, co=co):
+#     prox = Proxy()
+#     pxy = ""
+#     if PROXIES:
+#         pxy = PROXIES[-1]
+#     else:
+#         print("--- Proxies used up (%s)" % len(PROXIES))
+#         PROXIES = get_proxies()
+#
+#     prox.proxy_type = ProxyType.MANUAL
+#     prox.http_proxy = pxy
+#     prox.ssl_proxy = pxy
+#
+#     capabilities = webdriver.DesiredCapabilities.CHROME
+#     prox.add_to_capabilities(capabilities)
+#
+#     driver = webdriver.Chrome(chrome_options=co, desired_capabilities=capabilities)
+#
+#     return driver
+#
 
 # global page
 # page = 1
@@ -138,7 +138,7 @@ class ETOOSSpider(scrapy.Spider):
             try:
                 co.add_argument("user-agent={}".format(ua.random))
                 self.browser = webdriver.Chrome(chrome_options=co)
-                print(f'Current Page {page}')
+                print('Current Page {}'.format(page))
 
                 base_url = teacher_dic[self.teacher].format(str(page))
                 self.browser.get(base_url)
@@ -246,7 +246,7 @@ class MegaSpider(scrapy.Spider):
             try:
                 co.add_argument("user-agent={}".format(ua.random))
                 self.browser = webdriver.Chrome(chrome_options=co)
-                print(f'Current Page {page}')
+                print('Current Page {}'.format(page))
 
                 base_url = "http://www.megastudy.net/teacher_v2/bbs/bbs_list_ax.asp?tec_cd=rimbaud666&tec_nm=%uC870%uC815%uC2DD&tec_type=1&brd_cd=784&brd_tbl=MS_BRD_TEC784&brd_kbn=qnabbs&dom_cd=5&LeftMenuCd=3&LeftSubCd=1&HomeCd=134&page={} &chr_cd=&sub_nm=&ans_yn=&smode=1&sword=&TmpFlg=0.24915805251066403".format(
                     str(page)
@@ -351,7 +351,7 @@ class SkySpider(scrapy.Spider):
             try:
                 co.add_argument("user-agent={}".format(ua.random))
                 self.browser = webdriver.Chrome(chrome_options=co)
-                print(f'Current Page {page}')
+                print('Current Page {}'.format(page))
 
                 base_url = "https://skyedu.conects.com/teachers/teacher_qna/?t_id=jhc01&cat1=1&page={} ".format(
                     str(page)
@@ -447,7 +447,7 @@ class MiMacSpider(scrapy.Spider):
             try:
                 co.add_argument("user-agent={}".format(ua.random))
                 self.browser = webdriver.Chrome(chrome_options=co)
-                print(f'Current Page {page}')
+                print('Current Page {}'.format(page))
                 base_url = "http://www.mimacstudy.com/tcher/studyQna/getStudyQnaList.ds?tcd=531&currPage={} ".format(
                     str(page)
                 )

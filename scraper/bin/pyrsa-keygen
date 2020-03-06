@@ -1,4 +1,4 @@
-#!/Users/yoonhoonsang/Desktop/internet_lecture/scraper/bin/python3
+#!/home/yoonhoonsang/internet_lecture/scraper/bin/python3.7
 # -*- coding: utf-8 -*-
 import re
 import sys
