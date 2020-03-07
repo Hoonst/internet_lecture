@@ -41,7 +41,7 @@ doc = gc.open_by_url(spreadsheet_url)
 
 ua = UserAgent()
 co = webdriver.ChromeOptions()
-co.add_argument("/Users/yoonhoonsang/Desktop/internet_lecture/qna_crawler/chromedriver")
+co.add_argument("/home/yoonhoonsang/internet_lecture/chromedriver")
 co.add_argument("log-level=1")
 co.add_argument("headless")
 co.add_argument("user-agent={}".format(ua.random))
@@ -114,7 +114,7 @@ class ETOOSSpider(scrapy.Spider):
         today = datetime.date.today()
         yesterday = today - datetime.timedelta(days=1)
         day_before_yesterday = yesterday - datetime.timedelta(days=1)
-        start_temp = str(yesterday).split('-')
+        start_temp = str(yesterday).split("-")
         till_temp = str(day_before_yesterday).split("-")
 
         self.start = datetime.date(
@@ -138,7 +138,7 @@ class ETOOSSpider(scrapy.Spider):
             try:
                 co.add_argument("user-agent={}".format(ua.random))
                 self.browser = webdriver.Chrome(chrome_options=co)
-                print('Current Page {}'.format(page))
+                print("Current Page {}".format(page))
 
                 base_url = teacher_dic[self.teacher].format(str(page))
                 self.browser.get(base_url)
@@ -184,11 +184,11 @@ class ETOOSSpider(scrapy.Spider):
                             int(date_value[0]), int(date_value[1]), int(date_value[2])
                         )
 
-#                         if date_value <= self.start and date_value >= self.till:
+                        #                         if date_value <= self.start and date_value >= self.till:
                         if date_value == self.start:
                             date_qna_dic[date_value] += 1
                         elif date_value > self.start:
-                            print('out of date-range, over {}'.format(self.start))
+                            print("out of date-range, over {}".format(self.start))
                         elif date_value < self.start:
                             print("out of date-range, less {}".format(self.till))
                             running = False
@@ -203,7 +203,7 @@ class ETOOSSpider(scrapy.Spider):
                 break
 
         for date in date_qna_dic:
-            print('Final Process...')
+            print("Final Process...")
             self.worksheet.append_row([str(date), str(date_qna_dic[date])])
 
             item = QnaCrawlerItem()
@@ -224,9 +224,12 @@ class MegaSpider(scrapy.Spider):
 
         today = datetime.date.today()
         yesterday = today - datetime.timedelta(days=1)
+        day_before_yesterday = yesterday - datetime.timedelta(days=1)
 
-        start_temp = str(yesterday).split('-')
-        till_temp = self.till.split("/")
+        start_temp = str(yesterday).split("-")
+        till_temp = str(day_before_yesterday).split("-")
+
+        
         self.start = datetime.date(
             int(start_temp[0]), int(start_temp[1]), int(start_temp[2])
         )
@@ -238,6 +241,8 @@ class MegaSpider(scrapy.Spider):
 
     def parse(self, response):
         print("---- Scraping Starts ----")
+        print("---- Scraping of {}".format(str(self.start)))
+
         page = 1
         date_qna_dic = defaultdict(int)
         running = True
@@ -246,7 +251,7 @@ class MegaSpider(scrapy.Spider):
             try:
                 co.add_argument("user-agent={}".format(ua.random))
                 self.browser = webdriver.Chrome(chrome_options=co)
-                print('Current Page {}'.format(page))
+                print("Current Page {}".format(page))
 
                 base_url = "http://www.megastudy.net/teacher_v2/bbs/bbs_list_ax.asp?tec_cd=rimbaud666&tec_nm=%uC870%uC815%uC2DD&tec_type=1&brd_cd=784&brd_tbl=MS_BRD_TEC784&brd_kbn=qnabbs&dom_cd=5&LeftMenuCd=3&LeftSubCd=1&HomeCd=134&page={} &chr_cd=&sub_nm=&ans_yn=&smode=1&sword=&TmpFlg=0.24915805251066403".format(
                     str(page)
@@ -266,7 +271,6 @@ class MegaSpider(scrapy.Spider):
                 print("table element poped up")
 
                 rows = self.browser.find_elements_by_tag_name("tr")
-
                 for row in rows:
                     row_class = row.get_attribute("class")
 
@@ -291,12 +295,12 @@ class MegaSpider(scrapy.Spider):
                             int(date_value[0]), int(date_value[1]), int(date_value[2])
                         )
 
-                        if date_value <= self.start and date_value >= self.till:
+                        if date_value == self.start:
                             date_qna_dic[date_value] += 1
                         elif date_value > self.start:
-                            print('out of date-range, over {}'.format(self.start))
-                        elif date_value < self.till:
-                            print("out of date-range, less {}".format(self.till))
+                            print("out of date-range, over {}".format(self.start))
+                        elif date_value < self.start:
+                            print("out of date-range, less {}".format(self.start))
                             running = False
                             break
 
@@ -309,7 +313,7 @@ class MegaSpider(scrapy.Spider):
                 break
 
         for date in date_qna_dic:
-            print('Final Process...')
+            print("Final Process...")
             self.worksheet.append_row([str(date), str(date_qna_dic[date])])
 
             item = QnaCrawlerItem()
@@ -329,8 +333,9 @@ class SkySpider(scrapy.Spider):
 
         today = datetime.date.today()
         yesterday = today - datetime.timedelta(days=1)
+        day_before_yesterday = yesterday - datetime.timedelta(days=1)
 
-        start_temp = str(yesterday).split('-')
+        start_temp = str(yesterday).split("-")
         till_temp = self.till.split("/")
         self.start = datetime.date(
             int(start_temp[0]), int(start_temp[1]), int(start_temp[2])
@@ -343,7 +348,9 @@ class SkySpider(scrapy.Spider):
 
     def parse(self, response):
         print("---- Scraping Starts ----")
-        page = 139
+        print("---- Scraping of {}".format(str(self.start)))
+
+        page = 1
         date_qna_dic = defaultdict(int)
         running = True
 
@@ -351,7 +358,7 @@ class SkySpider(scrapy.Spider):
             try:
                 co.add_argument("user-agent={}".format(ua.random))
                 self.browser = webdriver.Chrome(chrome_options=co)
-                print('Current Page {}'.format(page))
+                print("Current Page {}".format(page))
 
                 base_url = "https://skyedu.conects.com/teachers/teacher_qna/?t_id=jhc01&cat1=1&page={} ".format(
                     str(page)
@@ -388,12 +395,12 @@ class SkySpider(scrapy.Spider):
                             int(date_value[0]), int(date_value[1]), int(date_value[2])
                         )
 
-                        if date_value <= self.start and date_value >= self.till:
+                        if date_value == self.start:
                             date_qna_dic[date_value] += 1
                         elif date_value > self.start:
-                            print('out of date-range, over {}'.format(self.start))
-                        elif date_value < self.till:
-                            print("out of date-range, less {}".format(self.till))
+                            print("out of date-range, over {}".format(self.start))
+                        elif date_value < self.start:
+                            print("out of date-range, less {}".format(self.start))
                             running = False
                             break
 
@@ -406,7 +413,7 @@ class SkySpider(scrapy.Spider):
                 break
 
         for date in date_qna_dic:
-            print('Final Process...')
+            print("Final Process...")
             self.worksheet.append_row([str(date), str(date_qna_dic[date])])
 
             item = QnaCrawlerItem()
@@ -426,7 +433,7 @@ class MiMacSpider(scrapy.Spider):
         today = datetime.date.today()
         yesterday = today - datetime.timedelta(days=1)
 
-        start_temp = str(yesterday).split('-')
+        start_temp = str(yesterday).split("-")
         till_temp = self.till.split("/")
         self.start = datetime.date(
             int(start_temp[0]), int(start_temp[1]), int(start_temp[2])
@@ -447,7 +454,7 @@ class MiMacSpider(scrapy.Spider):
             try:
                 co.add_argument("user-agent={}".format(ua.random))
                 self.browser = webdriver.Chrome(chrome_options=co)
-                print('Current Page {}'.format(page))
+                print("Current Page {}".format(page))
                 base_url = "http://www.mimacstudy.com/tcher/studyQna/getStudyQnaList.ds?tcd=531&currPage={} ".format(
                     str(page)
                 )
@@ -457,10 +464,10 @@ class MiMacSpider(scrapy.Spider):
                 print("Accessing {}".format(base_url))
 
                 title = WebDriverWait(self.browser, 10).until(
-                                    EC.presence_of_element_located(
-                                        (By.CSS_SELECTOR, "div.tbltype_list > table")
-                                    )
-                                )
+                    EC.presence_of_element_located(
+                        (By.CSS_SELECTOR, "div.tbltype_list > table")
+                    )
+                )
 
                 # get the rows of table
                 tbody = self.browser.find_element_by_tag_name("tbody")
@@ -492,15 +499,13 @@ class MiMacSpider(scrapy.Spider):
                         # date_value[0] = 2020 / date_value[1] = 12/ date_value[2] = 23
 
                         date_value = datetime.date(
-                            int(date_value[0]),
-                            int(date_value[1]),
-                            int(date_value[2]),
+                            int(date_value[0]), int(date_value[1]), int(date_value[2]),
                         )
 
                         if date_value <= self.start and date_value >= self.till:
                             date_qna_dic[date_value] += 1
                         elif date_value > self.start:
-                            print('out of date-range, over {}'.format(self.start))
+                            print("out of date-range, over {}".format(self.start))
                         elif date_value < self.till:
                             print("out of date-range, less {}".format(self.till))
                             running = False

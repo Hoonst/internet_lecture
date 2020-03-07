@@ -1,6 +1,9 @@
-PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin
+#!/bin/bash
+cd /home/yoonhoonsang/internet_lecture
 source scraper/bin/activate
 cd qna_crawler
 
-scrapy crawl ETOOS -a teacher=etoos_yhk -o outie.csv
-scrapy crawl ETOOS -a teacher=etoos_kww -o cold.csv
+scrapy crawl ETOOS -a teacher=etoos_yhk
+scrapy crawl ETOOS -a teacher=etoos_kww
+scrapy crawl MEGASTUDY -a teacher=megastudy_jjs
+scrapy crawl SKYEDU -a teacher=skyedu_jhc
