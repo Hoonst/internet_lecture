@@ -229,7 +229,6 @@ class MegaSpider(scrapy.Spider):
         start_temp = str(yesterday).split("-")
         till_temp = str(day_before_yesterday).split("-")
 
-        
         self.start = datetime.date(
             int(start_temp[0]), int(start_temp[1]), int(start_temp[2])
         )
@@ -336,7 +335,7 @@ class SkySpider(scrapy.Spider):
         day_before_yesterday = yesterday - datetime.timedelta(days=1)
 
         start_temp = str(yesterday).split("-")
-        till_temp = self.till.split("/")
+        till_temp = str(day_before_yesterday).split("-")
         self.start = datetime.date(
             int(start_temp[0]), int(start_temp[1]), int(start_temp[2])
         )
