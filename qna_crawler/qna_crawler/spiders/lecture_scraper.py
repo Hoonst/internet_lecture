@@ -62,26 +62,26 @@ def proxy_driver(PROXIES, co):
 
     return driver
 
-# def proxy_driver_with_firefox(PROXIES, co):
-#     prox = Proxy()
-#     pxy = ""
-#     if PROXIES:
-#         pxy = random.choice(PROXIES) #random proxy
-#         print(pxy)
-#     else:
-#         print("--- Proxies used up (%s)" % len(PROXIES))
-#         PROXIES = get_proxies(co=co)
-#
-#     prox.proxy_type = ProxyType.MANUAL
-#     prox.http_proxy = pxy
-#     prox.ssl_proxy = pxy
-#
-#     capabilities = DesiredCapabilities.FIREFOX
-#     prox.add_to_capabilities(capabilities)
-#
-#     driver = webdriver.Firefox(firefox_options=co, desired_capabilities=capabilities, executable_path="/usr/local/bin/geckodriver")
-#
-#     return driver
+def proxy_driver_with_firefox(PROXIES, co):
+    prox = Proxy()
+    pxy = ""
+    if PROXIES:
+        pxy = random.choice(PROXIES) #random proxy
+        print(pxy)
+    else:
+        print("--- Proxies used up (%s)" % len(PROXIES))
+        PROXIES = get_proxies(co=co)
+
+    prox.proxy_type = ProxyType.MANUAL
+    prox.http_proxy = pxy
+    prox.ssl_proxy = pxy
+
+    capabilities = DesiredCapabilities.FIREFOX
+    prox.add_to_capabilities(capabilities)
+
+    driver = webdriver.Firefox(firefox_options=co, desired_capabilities=capabilities, executable_path="/usr/local/bin/geckodriver")
+
+    return driver
 
 
 
@@ -204,9 +204,9 @@ def row_filter(rows, teacher_name, start, till):
             td_list = row.find_elements_by_css_selector("*")
             first_td_class = td_list[0].get_attribute("class")
 
-            if first_td_class == "noti" or row_class == "reply":
+            if first_td_class == "noti":
                 continue
-            date_value = parse(td_list[-2]).date()
+            date_value = parse(td_list[-2].text).date()
 
             check = check_date_range(date_value, start, till)
             if check > 0:
@@ -329,7 +329,11 @@ class SPIDER_BOARD(scrapy.Spider):
             "skyedu_jhc": "https://skyedu.conects.com/teachers/teacher_qna/?t_id=jhc01&cat1=1&page={}",
 
             #MIMAC
-            "mimac_lmh": "http://www.mimacstudy.com/tcher/studyQna/getStudyQnaList.ds?tcd=531&currPage={}"
+            "mimac_lmh": "http://www.mimacstudy.com/tcher/studyQna/getStudyQnaList.ds?tcd=531&currPage={}&myQna=N&ordType=&pageType=home&srchWordType=title&relm=03&type=03531&tcdTabType=tcdHome&menuIdx=&relmName=&tcdName=",
+            "mimac_lys": "http://www.mimacstudy.com/tcher/studyQna/getStudyQnaList.ds?tcd=926&currPage={}&myQna=N&ordType=&pageType=home&srchWordType=title&relm=03&type=03926&tcdTabType=tcdHome&menuIdx=&relmName=&tcdName=",
+            "mimac_esj": "http://www.mimacstudy.com/tcher/studyQna/getStudyQnaList.ds?tcd=503&currPage={}&myQna=N&ordType=&pageType=home&srchWordType=title&relm=03&type=03503&tcdTabType=tcdHome&menuIdx=&relmName=&tcdName=",
+            "mimac_kjj": "http://www.mimacstudy.com/tcher/studyQna/getStudyQnaList.ds?tcd=536&currPage={}&myQna=N&ordType=&pageType=home&srchWordType=title&relm=03&type=03536&tcdTabType=tcdHome&menuIdx=&relmName=&tcdName=",
+            "mimac_hjo": "http://www.mimacstudy.com/tcher/studyQna/getStudyQnaList.ds?tcd=922&currPage={}&myQna=N&ordType=&pageType=home&srchWordType=title&relm=03&type=03922&tcdTabType=tcdHome&menuIdx=&relmName=&tcdName="
         }
 
     def parse(self, response):
@@ -340,10 +344,10 @@ class SPIDER_BOARD(scrapy.Spider):
         page, qna_dictionary, running = 1, defaultdict(int), True
         print(driver_setting())
         while running:
-            if 'mimac' in self.teacher:
-                browser = proxy_driver_with_firefox(ALL_PROXIES, self.firefox_setting)
-            else:
-                browser = webdriver.Chrome(chrome_options=self.co)
+#             if 'mimac' in self.teacher:
+#                 browser = proxy_driver_with_firefox(ALL_PROXIES, self.firefox_setting)
+#             else:
+            browser = webdriver.Chrome(chrome_options=self.co)
             print("Current Page {}".format(page))
             base_url = self.teacher_dic[self.teacher].format(str(page))
             browser.get(base_url)
