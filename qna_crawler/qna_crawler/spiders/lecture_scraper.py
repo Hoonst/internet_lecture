@@ -33,74 +33,63 @@ def get_proxies(co):
     for p in proxies:
         result = p.text.split(" ")
         if result[-1] == "yes":
+            # ㅋㅋㅋㅋㅋ
+            # chrome 창이 넓으면 더 많은 column 보임 --> [-1]이 딴놈임
             PROXIES.append(result[0] + ":" + result[1])
 
     driver.close()
     return PROXIES
 
 
-#ALL_PROXIES = get_proxies(co)
+# ALL_PROXIES = get_proxies(co)
 
-def proxy_driver(PROXIES, co):
+# refactoring 예시. 마지막 if 문만 다르면, 같은 fn 두번 만들지 말기
+def proxied_driver(addresses, driver_type="chrome", co=None):
+    assert len(addresses) > 0, "At least one proxy address must be provided"
+
     prox = Proxy()
-    pxy = ""
-    if PROXIES:
-        pxy = random.choice(PROXIES) #random proxy
-        print(pxy)
-    else:
-        print("--- Proxies used up (%s)" % len(PROXIES))
-        PROXIES = get_proxies()
-
     prox.proxy_type = ProxyType.MANUAL
-    prox.http_proxy = pxy
-    prox.ssl_proxy = pxy
+    addr = random.choice(addresses)
+    prox.http_proxy = addr
+    prox.ssl_proxy = addr
 
-    capabilities = webdriver.DesiredCapabilities.CHROME
-    prox.add_to_capabilities(capabilities)
-
-    driver = webdriver.Chrome(chrome_options=co, desired_capabilities=capabilities)
-
-    return driver
-
-def proxy_driver_with_firefox(PROXIES, co):
-    prox = Proxy()
-    pxy = ""
-    if PROXIES:
-        pxy = random.choice(PROXIES) #random proxy
-        print(pxy)
-    else:
-        print("--- Proxies used up (%s)" % len(PROXIES))
-        PROXIES = get_proxies(co=co)
-
-    prox.proxy_type = ProxyType.MANUAL
-    prox.http_proxy = pxy
-    prox.ssl_proxy = pxy
-
-    capabilities = DesiredCapabilities.FIREFOX
-    prox.add_to_capabilities(capabilities)
-
-    driver = webdriver.Firefox(firefox_options=co, desired_capabilities=capabilities, executable_path="/usr/local/bin/geckodriver")
+    assert driver_type in ["chrome", "firefox"], "proxy_type must be chrome or firefox "
+    if driver_type == "chrome":
+        capabilities = webdriver.DesiredCapabilities.CHROME
+        prox.add_to_capabilities(capabilities)
+        driver = webdriver.Chrome(chrome_options=co, desired_capabilities=capabilities)
+        # 참고로 이런 .method의 번거로움이 python 단점 중 하나. 간단한 설정이어야 하는게 이상하게 구성하게됨
+    elif driver_type == "firefox":
+        capabilities = DesiredCapabilities.FIREFOX
+        prox.add_to_capabilities(capabilities)
+        driver = webdriver.Firefox(firefox_options=co,
+                                   desired_capabilities=capabilities,
+                                   executable_path="/usr/local/bin/geckodriver")
 
     return driver
 
 
-
 ##########################################################################################################
 ##########################################################################################################
 ##########################################################################################################
 
+# 이건 굳이? ㅋㅋ
 def parse_date(date_value):
     return parse(date_value)
+
+
+# 여기 set_foo 라 한게 사실 다 get하는 놈들임.
 
 def set_range(start, till):
     start, till = parse(start).date(), parse(till).date()
     return start, till
 
+
 def set_range_with_today():
     today = datetime.date.today()
     yesterday = (today - datetime.timedelta(days=1))
-    #day_before_yesterday = yesterday - datetime.timedelta(days=1)
-    return yesterday, yesterday
+    # day_before_yesterday = yesterday - datetime.timedelta(days=1)
+    return yesterday, yesterday  # 하나는 today여야하지 않나?
 
 def set_teachers(teacher_name, doc):
     return doc.worksheet(teacher_name)
@@ -118,109 +107,59 @@ def check_date_range(date, start, till):
     if date <= start and date >= till:
         return 1
     elif date > start:
+        # 왜 이 fn 만들고 아래에서 print 반복해서 써...
+        print("out of date-range, over {}".format(str(start)))
         return 0
     elif date < till:
+        print("out of date-range, less {}".format(str(till)))
         return -1
 
+
 def row_filter(rows, teacher_name, start, till):
-    run = True
-
-    qna_dic = defaultdict(int)
-
-    filtered_notice_rows = [
-        row for row in rows if row.get_attribute("class") in [None, ""]
+    rows = [
+        row.find_elements_by_css_selector("*") for row in rows if
+        row.get_attribute("class") in [None, ""]
     ]
 
-    # ETOOS
-    if "etoos" in teacher_name:
-        filtered_rows = []
-        for row in filtered_notice_rows:
-            td_list = row.find_elements_by_css_selector("*")
-            date_value, writer = parse_date(td_list[-1].text).date(), td_list[-2].text
-            if len(writer) > 4:
-                print("This is not a question, but answer")
-                continue
-            print("This is a question")
-            check = check_date_range(date_value, start, till)
-            print('check: ', check)
-            if check > 0:
-                qna_dic[date_value] += 1
-            elif check == 0:
-                print("out of date-range, over {}".format(str(start)))
-                continue
-            elif check < 0:
-                print("out of date-range, less {}".format(str(till)))
-                run = False
-                print('I am broken')
-                break
+    # 자 이게 핵심인데...
+    # 미안한데 진짜 토나올뻔 ㅋㅋㅋㅋㅋㅋ
+    # 그냥 화면 크게 띄워놓고 희미하게 쳐다볼때 이렇게 반복적이면 뭔가 문제 있는거임
+    # 고통정이 뭔지 생각하고 좀빼주자1@#$!@#$
 
-            print('====================')
-        return run, qna_dic
+    # site check
+    sites = ["etoos", "skyedu", "megastudy", "mimac"]
+    curr_site = None
+    for site in sites:
+        if site in teacher_name:
+            curr_site = site
+            break
+    assert curr_site, "Does teacher belong to {}?".format(sites)
 
-    # SKYEDU
-    elif "skyedu" in teacher_name:
-        for row in filtered_notice_rows:
-            td_list = row.find_elements_by_css_selector("*")
-            date_value = parse_date(td_list[-1].text).date()
+    # date check
+    # 이것도 이런식으로 idx로 하기보다 아예 column 명으로 찾는게 table이 조금 바뀌어도 안고장남
+    date_idx = {
+        "etoos": -1,
+        "skyedu": -1,
+        "megastudy": -2,
+        "mimac": -2
+    }
+    check_date = lambda row: check_date_range(parse(row[date_idx[curr_site]].date()),
+                                              start,
+                                              till)
 
-            check = check_date_range(date_value, start, till)
-            if check > 0:
-                qna_dic[date_value] += 1
-            elif check == 0:
-                print("out of date-range, over {}".format(str(start)))
-                continue
-            elif check < 0:
-                print("out of date-range, less {}".format(str(till)))
-                run = False
-                print('I am broken')
-                break
-        return run, qna_dic
+    # filter logic
+    questions = [r for r in rows if check_date(r) == 1]
+    errors = [r for r in rows if check_date(r) == -1]
+    # check_date의 결과값으로 group_by 해서 {"questions": [...], "errors": [...]} 이런식으로 한번에 만들면 가산점 주겠음.
 
-    # MEGASTUDY
-    elif "megastudy" in teacher_name:
+    # special case
+    if curr_site == "etoos":
+        questions = [q for q in questions if len(q[-2].text) <= 4]
 
-        for row in filtered_notice_rows:
-            td_list = row.find_elements_by_css_selector("*")
-            date_value = parse_date(td_list[-2].text).date()
+    # 여기서 리턴 값으로 에러 핸들링 하는것도 이상함. 리턴 값과 가동 상태가 이렇게 썪이면 안됨.
+    return False if len(errors) > 0 else True, {start: len(list(questions))}
 
-            check = check_date_range(date_value, start, till)
-            if check > 0:
-                qna_dic[date_value] += 1
-            elif check == 0:
-                print("out of date-range, over {}".format(str(start)))
-                continue
-            elif check < 0:
-                print("out of date-range, less {}".format(str(till)))
-                run = False
-                print('I am broken')
-                break
-
-        return run, qna_dic
-
-    # MIMAC
-    elif "mimac" in teacher_name:
-        filtered_rows = []
-        for row in filtered_notice_rows:
-            td_list = row.find_elements_by_css_selector("*")
-            first_td_class = td_list[0].get_attribute("class")
-
-            if first_td_class == "noti":
-                continue
-            date_value = parse(td_list[-2].text).date()
-
-            check = check_date_range(date_value, start, till)
-            if check > 0:
-                qna_dic[date_value] += 1
-            elif check == 0:
-                print("out of date-range, over {}".format(str(start)))
-                continue
-            elif check < 0:
-                print("out of date-range, less {}".format(str(till)))
-                run = False
-                print('I am broken')
-                break
-
-        return run, qna_dic
+# 더 밑에는 못보겠다. 암튼 이런식으로 계속 ㄱㄱ. 한번도 안돌려본거니 버그 있을텐데 개념을 공부하며 고쳐보던지!
 
 def wait_element(browser, teacher_name):
     if 'etoos' in teacher_name:
