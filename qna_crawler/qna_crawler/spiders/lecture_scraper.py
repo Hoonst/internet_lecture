@@ -24,6 +24,7 @@ from selenium.webdriver.firefox.options import Options
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
+<<<<<<< HEAD
 # scope = [
 #     "https://spreadsheets.google.com/feeds",
 #     "https://www.googleapis.com/auth/drive",
@@ -49,6 +50,8 @@ from oauth2client.service_account import ServiceAccountCredentials
 # co.add_argument("user-agent={}".format(ua.random))
 # co.add_argument("lang=ko_KR")
 
+=======
+>>>>>>> 9c6426e22acd89e17c189044bd860f4ed9170a97
 
 def get_proxies(co):
     driver = webdriver.Chrome(chrome_options=co)
@@ -147,9 +150,15 @@ def mergeDict(dict1, dict2):
     for key, value in dict3.items():
         if key in dict1 and key in dict2:
             dict3[key] = value + dict1[key]
+<<<<<<< HEAD
 
     return dict3
 
+=======
+
+    return dict3
+
+>>>>>>> 9c6426e22acd89e17c189044bd860f4ed9170a97
 
 def check_date_range(date, start, till):
     if date <= start and date >= till:
@@ -285,6 +294,7 @@ def wait_element(browser, teacher_name):
                 (By.CSS_SELECTOR, "div.tbltype_list > table")
             )
         )
+<<<<<<< HEAD
 
 
 def connect_gspread():
@@ -330,6 +340,53 @@ def find_rows_of_table(browser):
     return rows
 
 
+=======
+
+
+def connect_gspread():
+    scope = [
+        "https://spreadsheets.google.com/feeds",
+        "https://www.googleapis.com/auth/drive",
+    ]
+
+    json_file_name = "woven-arcadia-269609-12b95dbdd1c3.json"
+
+    credentials = ServiceAccountCredentials.from_json_keyfile_name(
+        json_file_name, scope
+    )
+    gc = gspread.authorize(credentials)
+    spreadsheet_url = "https://docs.google.com/spreadsheets/d/1YEO-EhcPmtj0r0YJzy-xNF6oVEdb8QHS43Eusck83so/edit#gid=2122150374"
+
+    # 스프레스시트 문서 가져오기
+    doc = gc.open_by_url(spreadsheet_url)
+    return doc
+
+
+def driver_setting():
+    ua = UserAgent()
+    co = webdriver.ChromeOptions()
+    co.add_argument('/home/yoonhoonsang/internet_lecture/chromedriver')
+    co.add_argument("log-level=1")
+    co.add_argument("headless")
+    co.add_argument("user-agent={}".format(ua.random))
+    co.add_argument("lang=ko_KR")
+    return co
+
+
+def driver_setting_firefox():
+    opts = Options()
+    # opts.add_argument('--headless')
+    print("Firefox Headless Browser Invoked")
+    return opts
+
+
+def find_rows_of_table(browser):
+    tbody = browser.find_element_by_tag_name("tbody")
+    rows = tbody.find_elements_by_tag_name("tr")
+    return rows
+
+
+>>>>>>> 9c6426e22acd89e17c189044bd860f4ed9170a97
 class SPIDER_BOARD(scrapy.Spider):
     name = "SPIDERMAN"
     start_urls = ["http://www.naver.com"]
@@ -382,7 +439,11 @@ class SPIDER_BOARD(scrapy.Spider):
             #             if 'mimac' in self.teacher:
             #                 browser = proxy_driver_with_firefox(ALL_PROXIES, self.firefox_setting)
             #             else:
+<<<<<<< HEAD
             browser = webdriver.Chrome(chrome_options=self.co)
+=======
+            browser = webdriver.Chrome(chrome_options=self.co, executable_path='/home/yoonhoonsang/internet_lecture/chromedriver')
+>>>>>>> 9c6426e22acd89e17c189044bd860f4ed9170a97
             print("Current Page {}".format(page))
             base_url = self.teacher_dic[self.teacher].format(str(page))
             browser.get(base_url)
