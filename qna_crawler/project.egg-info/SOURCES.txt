@@ -1,0 +1,13 @@
+setup.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
+qna_crawler/__init__.py
+qna_crawler/items.py
+qna_crawler/middlewares.py
+qna_crawler/pipelines.py
+qna_crawler/settings.py
+qna_crawler/spiders/__init__.py
+qna_crawler/spiders/lecture_scraper.py

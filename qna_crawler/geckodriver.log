@@ -1,0 +1,41 @@
+1583839619538	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fn/9dj0lp5d1vjdz651ldy376r40000gn/T/rust_mozprofileEMZwYa"
+1583839620023	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1583839620243	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583839620243	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1583839620243	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583839620243	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1583839621664	Marionette	INFO	Listening on port 58868
+1583839621698	Marionette	WARN	TLS certificate errors will be ignored for this session
+1583839654450	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fn/9dj0lp5d1vjdz651ldy376r40000gn/T/rust_mozprofileQCFJSD"
+1583839654803	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1583839654996	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583839654996	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1583839654996	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583839654996	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1583839656308	Marionette	INFO	Listening on port 58925
+1583839656381	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.mimacstudy.com/js/zoneplayer/js/app/app.js?171114, line 404: unreachable code after return statement
+JavaScript warning: http://www.mimacstudy.com/js/zoneplayer/js/app/app.js?171114, line 404: unreachable code after return statement
+1583840293267	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fn/9dj0lp5d1vjdz651ldy376r40000gn/T/rust_mozprofileLt4yE6"
+1583840295571	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1583840295790	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583840295790	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1583840295790	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583840295791	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1583840297180	Marionette	INFO	Listening on port 59824
+1583840369190	Marionette	INFO	Stopped listening on port 58925
+1583840371954	Marionette	INFO	Stopped listening on port 58868
+1583840375209	Marionette	INFO	Stopped listening on port 59824
+1583840477647	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fn/9dj0lp5d1vjdz651ldy376r40000gn/T/rust_mozprofile26VdUe"
+1583840477973	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1583840478192	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583840478192	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1583840478192	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583840478192	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1583840479451	Marionette	INFO	Listening on port 59979
+1583840479481	Marionette	WARN	TLS certificate errors will be ignored for this session
+1583840479487	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"178.128.217.142:44344","sslProxy":"178.128.217.142:44344"}
+JavaScript warning: http://www.mimacstudy.com/js/zoneplayer/js/app/app.js?171114, line 404: unreachable code after return statement
+JavaScript warning: http://www.mimacstudy.com/js/zoneplayer/js/app/app.js?171114, line 404: unreachable code after return statement
+JavaScript warning: http://www.mimacstudy.com/js/zoneplayer/js/app/app.js?171114, line 404: unreachable code after return statement
+1583887955141	Marionette	INFO	Stopped listening on port 59979
