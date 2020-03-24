@@ -1,4 +1,6 @@
 #!/bin/bash
+source ~/.profile
+pyenv activate scraper
 cd /home/yoonhoonsang/internet_lecture
 cd qna_crawler
 
